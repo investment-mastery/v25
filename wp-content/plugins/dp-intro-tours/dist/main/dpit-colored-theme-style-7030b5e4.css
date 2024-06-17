@@ -1,0 +1,19 @@
+/*!
+ * 
+ * Intro Tour Tutorial
+ * 
+ * @author [object Object]
+ * @version 6.4.4
+ * @link http://www.gnu.org/licenses/gpl-2.0.txt
+ * @license GPL-2.0+
+ * 
+ * Copyright (c) 2023 [object Object]
+ * 
+ * This plugin is released under GPL-2.0+ license to be included in wordpres.org plugin repository
+ * 
+ * Compiled with the help of https://wpack.io
+ * A zero setup Webpack Bundler Script for WordPress
+ */
+.dpit-no-events{pointer-events:none !important}.dpit-theme-colored{--dpit-overlay-color: var(--accent-contrast-color);--dpit-highlight-border-color: var(--accent-contrast-inv-color);--dpit-number-tx-color: var(--accent-contrast-color);--dpit-number-bg-color: var(--accent-color-gentle);--dpit-number-border-color: var(--accent-contrast-inv-color);--bullet-anim-color: var(--accent-contrast-inv-color);--bullet-anim-on-color: var(--accent-color);--dpit-tooltip-bg-color: var(--accent-color-gentle);--dpit-tooltip-tx-color: var(--accent-contrast-color);--dpit-btn-tx-color: var(--accent-contrast-inv-color);--dpit-btn-tx-on-color: var(--accent-contrast-inv-color);--dpit-btn-tx-alpha: 0.85;--dpit-btn-bg-color: var(--accent-contrast-color);--dpit-btn-bg-alpha: 0.7;--dpit-bullet-bg-color: var(--accent-contrast-color);--dpit-bullet-on-bg-color: var(--accent-contrast-color);--dpit-bullet-on-tx-color: var(--accent-contrast-inv-color);--dpit-progress-front-color: var(--accent-contrast-color);--dpit-progress-bg-color: var(--accent-contrast-color);--dpit-scrollbar-bg-color: var(--accent-contrast-color)}.dpit-theme-colored.dpit-light-accent{--dpit-overlay-color: var(--accent-contrast-color);--dpit-tooltip-tx-color: var(--accent-contrast-color)}.dpit-theme-colored .dpit-number--on-tooltip{--dpit-number-border-color: var(--accent-contrast-color)}.dpit-theme-colored .dpit-tooltip .dpit-tooltip-text{letter-spacing:.1em}.dpit-theme-colored .dpit-tooltip .dpit-tooltip-text a{color:rgb(var(--dpit-tooltip-tx-color)) !important;text-decoration:underline}.dpit-theme-colored.dpit-light-accent .dpit-tooltip-text{text-shadow:.2px 0px 0px rgb(var(--dpit-tooltip-tx-color))}.dpit-theme-colored.dpit-light-accent .dpit-number--on-tooltip{--dpit-number-border-color: var(--accent-contrast-color);--dpit-btn-bg-alpha-2: 0.85}
+
+/*# sourceMappingURL=dpit-colored-theme-style-7030b5e4.css.map*/

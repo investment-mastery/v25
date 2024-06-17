@@ -1,0 +1,17 @@
+/*!
+ * 
+ * Intro Tour Tutorial PRO
+ * 
+ * @author [object Object]
+ * @version 4.4.0
+ * @link #
+ * @license 
+ * 
+ * Copyright (c) 2022 [object Object]
+ * 
+ * Copyright (c) 2020 DeepPresentation <Tomáš Groulík>. All rights reserved.
+ * 
+ * Compiled with the help of https://wpack.io
+ * A zero setup Webpack Bundler Script for WordPress
+ */
+.dpintro-wrapper.flat2{--button-border-radius: 2px;--tooltip-border-radius: 3px;--highlight-border-radius: 0px;--btn_font: tahoma, Arial, verdana, sans-serif}.dpintro-wrapper.flat2 .dpintro-highlight{background-color:rgba(var(--highlight-layer-bg-color), 0.9);border:none}.dpintro-wrapper.flat2 .dpintro-overlay:not(.dpintro-overlay--blurred){background-color:rgba(var(--accent-contrast-inv-color), 1)}.dpintro-wrapper.flat2 .dpintro-tooltip-number{font-family:tahoma,Arial,verdana,sans-serif;border:2px solid rgba(var(--accent-contrast-color), 1);background:rgba(var(--accent-color), 1)}.dpintro-wrapper.flat2 .dpintro-tooltip{background-color:rgba(var(--accent-contrast-color), 1)}.dpintro-wrapper.flat2 .dpintro-tooltip .dpintro-tooltip-text{letter-spacing:.1em;color:rgba(var(--accent-color), 1)}.dpintro-wrapper.flat2 .dpintro-tooltip .dpintro-tooltip-text a,.dpintro-wrapper.flat2 .dpintro-tooltip .dpintro-tooltip-text h1,.dpintro-wrapper.flat2 .dpintro-tooltip .dpintro-tooltip-text h2,.dpintro-wrapper.flat2 .dpintro-tooltip .dpintro-tooltip-text h3,.dpintro-wrapper.flat2 .dpintro-tooltip .dpintro-tooltip-text h4,.dpintro-wrapper.flat2 .dpintro-tooltip .dpintro-tooltip-text h5,.dpintro-wrapper.flat2 .dpintro-tooltip .dpintro-tooltip-text h6{color:rgba(var(--accent-color), 0.8)}.dpintro-wrapper.flat2 .dpintro-tooltip .dpintro-tooltip-text p{color:rgba(var(--accent-contrast-inv-color), 1)}.dpintro-wrapper.flat2 .dpintro-arrow--top{border-bottom-color:rgba(var(--accent-contrast-color), 1)}.dpintro-wrapper.flat2 .dpintro-arrow--right{border-left-color:rgba(var(--accent-contrast-color), 1)}.dpintro-wrapper.flat2 .dpintro-arrow--bottom{border-top-color:rgba(var(--accent-contrast-color), 1)}.dpintro-wrapper.flat2 .dpintro-arrow--left{border-right-color:rgba(var(--accent-contrast-color), 1)}.dpintro-wrapper.flat2 .dpintro-button{padding:.6em .8em .7em;font-weight:bold;font-size:13px;color:rgba(var(--accent-color), 1);background-color:rgba(var(--accent-contrast-color), 0.863);box-shadow:0 0 3px 0px rgba(var(--accent-color), 0.7);letter-spacing:.1em}.dpintro-wrapper.flat2 .dpintro-button:not(.dpintro-disabled):focus{color:rgba(var(--accent-contrast-color), 1);background-color:rgba(var(--accent-color), 0.933)}.dpintro-wrapper.flat2 .dpintro-button:not(.dpintro-disabled):active,.dpintro-wrapper.flat2 .dpintro-button:not(.dpintro-disabled):hover,.dpintro-wrapper.flat2 .dpintro-button:not(.dpintro-disabled).hovered{background-color:rgba(var(--accent-color), 1);color:rgba(var(--accent-contrast-color), 1)}.dpintro-wrapper.flat2 .dpintro-button--skip{border-color:transparent}.dpintro-wrapper.flat2 .dpintro-bullets ul li div{border-radius:15%}.dpintro-wrapper.flat2 .dpintro-bullets ul li div.active,.dpintro-wrapper.flat2 .dpintro-bullets ul li div:hover{background:rgba(var(--accent-color), 0.89)}

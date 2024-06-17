@@ -1,0 +1,17 @@
+/*!
+ * 
+ * Intro Tour Tutorial PRO
+ * 
+ * @author [object Object]
+ * @version 4.4.0
+ * @link #
+ * @license 
+ * 
+ * Copyright (c) 2022 [object Object]
+ * 
+ * Copyright (c) 2020 DeepPresentation <Tomáš Groulík>. All rights reserved.
+ * 
+ * Compiled with the help of https://wpack.io
+ * A zero setup Webpack Bundler Script for WordPress
+ */
+.dpintro-wrapper.flat{--highlight-border-radius: 0px;--btn_font: tahoma, Arial, verdana, sans-serif;--button-border-radius: 0px}.dpintro-wrapper.flat .dpintro-highlight{background-color:rgba(var(--highlight-layer-bg-color), 0.9);border:none}.dpintro-wrapper.flat .dpintro-tooltip-number{font-family:tahoma,Arial,verdana,sans-serif;background:rgba(var(--accent-color), 1)}.dpintro-wrapper.flat .dpintro-tooltip .dpintro-tooltip-text{letter-spacing:.1em}.dpintro-wrapper.flat .dpintro-button{padding:.6em .8em .7em;font-weight:bold;font-size:13px;box-shadow:0 0 3px 0px rgba(var(--accent-color), 0.7);letter-spacing:.1em}.dpintro-wrapper.flat .dpintro-button:not(.dpintro-disabled):focus{color:rgba(var(--accent-contrast-color), 1);background-color:rgba(var(--accent-color), 0.933)}.dpintro-wrapper.flat .dpintro-button:not(.dpintro-disabled):active,.dpintro-wrapper.flat .dpintro-button:not(.dpintro-disabled):hover,.dpintro-wrapper.flat .dpintro-button:not(.dpintro-disabled).hovered{background-color:rgba(var(--accent-color), 1)}.dpintro-wrapper.flat .dpintro-button--skip{border-color:transparent}.dpintro-wrapper.flat .dpintro-bullets ul li div{border-radius:0}.dpintro-wrapper.flat .dpintro-bullets ul li div.active,.dpintro-wrapper.flat .dpintro-bullets ul li div:hover{background:rgba(var(--accent-color), 0.89)}

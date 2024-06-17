@@ -1,0 +1,17 @@
+/*!
+ * 
+ * Intro Tour Tutorial PRO
+ * 
+ * @author [object Object]
+ * @version 4.4.0
+ * @link #
+ * @license 
+ * 
+ * Copyright (c) 2022 [object Object]
+ * 
+ * Copyright (c) 2020 DeepPresentation <Tomáš Groulík>. All rights reserved.
+ * 
+ * Compiled with the help of https://wpack.io
+ * A zero setup Webpack Bundler Script for WordPress
+ */
+.dp-noscroll{overflow:hidden}.dpintro-wrapper.dark{--overlay-bg-color: 255, 255, 255;--highlight-layer-bg-color: 101, 109, 120;--tooltip-bg-color: 67, 74, 84;--tooltip-border-radius: 3px;--accent-color: 101, 108, 120;--button-border-radius: 0px;--text-color: 255, 255, 255}.dpintro-wrapper.dark .dpintro-bullets ul li div.active,.dpintro-wrapper.dark .dpintro-bullets ul li div:hover{background:rgba(var(--accent-color), 1)}.dpintro-wrapper.dark .dpintro-tooltip-number{width:34px;height:34px;color:#fff;background:rgba(var(--tooltip-bg-color), 1)}.dpintro-wrapper.dark .dpintro-arrow--bottom{border-top-color:rgba(var(--accent-color), 1)}.dpintro-wrapper.dark .dpintro-tooltip-buttons{position:relative;bottom:-10px;margin-left:-30px;margin-right:-30px;padding:0 15px 5px;background:rgba(var(--accent-color), 1);border-radius:0 0 3px 3px}.dpintro-wrapper.dark .dpintro-tooltip{padding:20px 30px 10px 30px}.dpintro-wrapper.dark .dpintro-tooltip--center .dpintro-tooltip-buttons{background-color:rgba(var(--accent-color), 0.8)}.dpintro-wrapper.dark .dpintro-button{background-color:transparent;font-size:13px;margin-top:5px;font-weight:600;text-transform:uppercase;padding:.56em .5em .5em;border-color:transparent}.dpintro-wrapper.dark .dpintro-button:not(.dpintro-disabled):focus,.dpintro-wrapper.dark .dpintro-button:not(.dpintro-disabled):active,.dpintro-wrapper.dark .dpintro-button:not(.dpintro-disabled):hover,.dpintro-wrapper.dark .dpintro-button:not(.dpintro-disabled).hovered{background-color:transparent;font-weight:900}.dpintro-wrapper.dark .dpintro-button--skip{color:rgba(var(--accent-contrast-color), 0.89)}.dpintro-wrapper.dark .dpintro-button--next:not(.dpintro-disabled):hover,.dpintro-wrapper.dark .dpintro-button--next:not(.dpintro-disabled).hovered{-webkit-transform:translateX(2px);transform:translateX(2px)}.dpintro-wrapper.dark .dpintro-button--prev:not(.dpintro-disabled):hover,.dpintro-wrapper.dark .dpintro-button--prev:not(.dpintro-disabled).hovered{-webkit-transform:translateX(-2px);transform:translateX(-2px)}

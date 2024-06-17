@@ -1,0 +1,17 @@
+/*!
+ * 
+ * Intro Tour Tutorial PRO
+ * 
+ * @author [object Object]
+ * @version 4.4.0
+ * @link #
+ * @license 
+ * 
+ * Copyright (c) 2022 [object Object]
+ * 
+ * Copyright (c) 2020 DeepPresentation <Tomáš Groulík>. All rights reserved.
+ * 
+ * Compiled with the help of https://wpack.io
+ * A zero setup Webpack Bundler Script for WordPress
+ */
+#wpadminbar .dpit-admin-bar-icon{padding-top:6px !important}#wpadminbar .dpit-admin-bar-icon::before{content:url(assets/intro-tour-9baf09a8.png)}#wpadminbar .dp-wpadmin-bar-tour-status{color:#8899a8;font-variant:small-caps}

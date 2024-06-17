@@ -1,0 +1,468 @@
+{
+  "AdminThemeColors.js": "main/AdminThemeColors-8e0d2c3e.js",
+  "AdminThemeColors.js.map": "main/AdminThemeColors-8e0d2c3e.js.map",
+  "AdminTourTable.js": "main/AdminTourTable-c5c95228.js",
+  "AdminTourTable.js.map": "main/AdminTourTable-c5c95228.js.map",
+  "DpitBuilderCore.js": "main/DpitBuilderCore-c2cec7ee.js",
+  "DpitBuilderCore.js.map": "main/DpitBuilderCore-c2cec7ee.js.map",
+  "DpitBuilderCoreSticky.js": "main/DpitBuilderCoreSticky-5ae39f32.js",
+  "DpitBuilderCoreSticky.js.map": "main/DpitBuilderCoreSticky-5ae39f32.js.map",
+  "DpitCore.js": "main/DpitCore-e0503199.js",
+  "DpitCore.js.map": "main/DpitCore-e0503199.js.map",
+  "DpitCoreSticky.js": "main/DpitCoreSticky-1349309e.js",
+  "DpitCoreSticky.js.map": "main/DpitCoreSticky-1349309e.js.map",
+  "DpitDebugVisualizer.js": "main/DpitDebugVisualizer-85d8bd60.js",
+  "DpitDebugVisualizer.js.map": "main/DpitDebugVisualizer-85d8bd60.js.map",
+  "DpitMobileMenu.js": "main/DpitMobileMenu-c8d59d05.js",
+  "DpitMobileMenu.js.map": "main/DpitMobileMenu-c8d59d05.js.map",
+  "DpitStickyEvents.js": "main/DpitStickyEvents-d81eace5.js",
+  "DpitStickyEvents.js.map": "main/DpitStickyEvents-d81eace5.js.map",
+  "DpitTarget.js": "main/DpitTarget-adfbd9aa.js",
+  "DpitTarget.js.map": "main/DpitTarget-adfbd9aa.js.map",
+  "DpitTargetBranch.js": "main/DpitTargetBranch-e8aaf180.js",
+  "DpitTargetBranch.js.map": "main/DpitTargetBranch-e8aaf180.js.map",
+  "DpitTargetParent.js": "main/DpitTargetParent-ddc49301.js",
+  "DpitTargetParent.js.map": "main/DpitTargetParent-ddc49301.js.map",
+  "DpitUserInteraction.js": "main/DpitUserInteraction-e86d5743.js",
+  "DpitUserInteraction.js.map": "main/DpitUserInteraction-e86d5743.js.map",
+  "EventListeners.js": "main/EventListeners-169d60d6.js",
+  "EventListeners.js.map": "main/EventListeners-169d60d6.js.map",
+  "ExclusiveClickListener.js": "main/ExclusiveClickListener-28bff61c.js",
+  "ExclusiveClickListener.js.map": "main/ExclusiveClickListener-28bff61c.js.map",
+  "default-DpitBuilderCore-DpitBuilderCoreSticky-DpitCore-DpitCoreSticky.js": "main/default-DpitBuilderCore-DpitBuilderCoreSticky-DpitCore-DpitCoreSticky-31ce9437.js",
+  "default-DpitBuilderCore-DpitBuilderCoreSticky-DpitCore-DpitCoreSticky.js.map": "main/default-DpitBuilderCore-DpitBuilderCoreSticky-DpitCore-DpitCoreSticky-31ce9437.js.map",
+  "default-dpit-admin-bar-dpit-admin-tour-edit-dpit-public.js": "main/default-dpit-admin-bar-dpit-admin-tour-edit-dpit-public-178bb1f1.js",
+  "default-dpit-admin-bar-dpit-admin-tour-edit-dpit-public.js.map": "main/default-dpit-admin-bar-dpit-admin-tour-edit-dpit-public-178bb1f1.js.map",
+  "dpit-admin-always.js": "main/dpit-admin-always-d7838972.js",
+  "dpit-admin-always.js.map": "main/dpit-admin-always-d7838972.js.map",
+  "dpit-admin-bar-style.css": "main/dpit-admin-bar-style-fcb2ab6e.css",
+  "dpit-admin-bar-style.css.map": "main/dpit-admin-bar-style-fcb2ab6e.css.map",
+  "dpit-admin-bar-style.js": "main/dpit-admin-bar-style-0aa9dc5e.js",
+  "dpit-admin-bar-style.js.map": "main/dpit-admin-bar-style-0aa9dc5e.js.map",
+  "dpit-admin-bar.js": "main/dpit-admin-bar-81f66b2a.js",
+  "dpit-admin-bar.js.map": "main/dpit-admin-bar-81f66b2a.js.map",
+  "dpit-admin-settings-style.css": "main/dpit-admin-settings-style-849a0c09.css",
+  "dpit-admin-settings-style.css.map": "main/dpit-admin-settings-style-849a0c09.css.map",
+  "dpit-admin-settings-style.js": "main/dpit-admin-settings-style-ec687324.js",
+  "dpit-admin-settings-style.js.map": "main/dpit-admin-settings-style-ec687324.js.map",
+  "dpit-admin-settings.js": "main/dpit-admin-settings-a8e85110.js",
+  "dpit-admin-settings.js.map": "main/dpit-admin-settings-a8e85110.js.map",
+  "dpit-admin-style.css": "main/dpit-admin-style-d690f276.css",
+  "dpit-admin-style.css.map": "main/dpit-admin-style-d690f276.css.map",
+  "dpit-admin-style.js": "main/dpit-admin-style-6b59fd75.js",
+  "dpit-admin-style.js.map": "main/dpit-admin-style-6b59fd75.js.map",
+  "dpit-admin-toolbar-style.css": "main/dpit-admin-toolbar-style-fbceb25f.css",
+  "dpit-admin-toolbar-style.css.map": "main/dpit-admin-toolbar-style-fbceb25f.css.map",
+  "dpit-admin-toolbar-style.js": "main/dpit-admin-toolbar-style-c21d46a0.js",
+  "dpit-admin-toolbar-style.js.map": "main/dpit-admin-toolbar-style-c21d46a0.js.map",
+  "dpit-admin-toolbar.js": "main/dpit-admin-toolbar-ebfa94b7.js",
+  "dpit-admin-toolbar.js.map": "main/dpit-admin-toolbar-ebfa94b7.js.map",
+  "dpit-admin-tour-edit-style.css": "main/dpit-admin-tour-edit-style-aa7d40e3.css",
+  "dpit-admin-tour-edit-style.css.map": "main/dpit-admin-tour-edit-style-aa7d40e3.css.map",
+  "dpit-admin-tour-edit-style.js": "main/dpit-admin-tour-edit-style-02398205.js",
+  "dpit-admin-tour-edit-style.js.map": "main/dpit-admin-tour-edit-style-02398205.js.map",
+  "dpit-admin-tour-edit.css": "main/dpit-admin-tour-edit-3b2683e9.css",
+  "dpit-admin-tour-edit.css.map": "main/dpit-admin-tour-edit-3b2683e9.css.map",
+  "dpit-admin-tour-edit.js": "main/dpit-admin-tour-edit-3c048cf5.js",
+  "dpit-admin-tour-edit.js.map": "main/dpit-admin-tour-edit-3c048cf5.js.map",
+  "dpit-admin.js": "main/dpit-admin-38dd265f.js",
+  "dpit-admin.js.map": "main/dpit-admin-38dd265f.js.map",
+  "dpit-base-style.css": "main/dpit-base-style-99089e96.css",
+  "dpit-base-style.css.map": "main/dpit-base-style-99089e96.css.map",
+  "dpit-base-style.js": "main/dpit-base-style-83502ba6.js",
+  "dpit-base-style.js.map": "main/dpit-base-style-83502ba6.js.map",
+  "dpit-basic-theme-style.css": "main/dpit-basic-theme-style-189f113c.css",
+  "dpit-basic-theme-style.css.map": "main/dpit-basic-theme-style-189f113c.css.map",
+  "dpit-basic-theme-style.js": "main/dpit-basic-theme-style-e0d2eb3c.js",
+  "dpit-basic-theme-style.js.map": "main/dpit-basic-theme-style-e0d2eb3c.js.map",
+  "dpit-builder-style.css": "main/dpit-builder-style-d1ae7a7e.css",
+  "dpit-builder-style.css.map": "main/dpit-builder-style-d1ae7a7e.css.map",
+  "dpit-builder-style.js": "main/dpit-builder-style-bf86b11a.js",
+  "dpit-builder-style.js.map": "main/dpit-builder-style-bf86b11a.js.map",
+  "dpit-builder.css": "main/dpit-builder-844ce8f9.css",
+  "dpit-builder.css.map": "main/dpit-builder-844ce8f9.css.map",
+  "dpit-builder.js": "main/dpit-builder-59ffafb0.js",
+  "dpit-builder.js.map": "main/dpit-builder-59ffafb0.js.map",
+  "dpit-colored-theme-style.css": "main/dpit-colored-theme-style-7030b5e4.css",
+  "dpit-colored-theme-style.css.map": "main/dpit-colored-theme-style-7030b5e4.css.map",
+  "dpit-colored-theme-style.js": "main/dpit-colored-theme-style-807f0132.js",
+  "dpit-colored-theme-style.js.map": "main/dpit-colored-theme-style-807f0132.js.map",
+  "dpit-minimal-theme-style.css": "main/dpit-minimal-theme-style-c31e9e7c.css",
+  "dpit-minimal-theme-style.css.map": "main/dpit-minimal-theme-style-c31e9e7c.css.map",
+  "dpit-minimal-theme-style.js": "main/dpit-minimal-theme-style-7f7266ed.js",
+  "dpit-minimal-theme-style.js.map": "main/dpit-minimal-theme-style-7f7266ed.js.map",
+  "dpit-public.js": "main/dpit-public-306d9925.js",
+  "dpit-public.js.map": "main/dpit-public-306d9925.js.map",
+  "dpit-sticky-theme-style.css": "main/dpit-sticky-theme-style-56748baf.css",
+  "dpit-sticky-theme-style.css.map": "main/dpit-sticky-theme-style-56748baf.css.map",
+  "dpit-sticky-theme-style.js": "main/dpit-sticky-theme-style-182ab759.js",
+  "dpit-sticky-theme-style.js.map": "main/dpit-sticky-theme-style-182ab759.js.map",
+  "dpitButtonIcoCancel.js": "main/dpitButtonIcoCancel-40a1a5ba.js",
+  "dpitButtonIcoCancel.js.map": "main/dpitButtonIcoCancel-40a1a5ba.js.map",
+  "dpitButtonIcoPrevNext.js": "main/dpitButtonIcoPrevNext-99dafb99.js",
+  "dpitButtonIcoPrevNext.js.map": "main/dpitButtonIcoPrevNext-99dafb99.js.map",
+  "dpitGoldenRatioPosAlg.js": "main/dpitGoldenRatioPosAlg-0afcc36d.js",
+  "dpitGoldenRatioPosAlg.js.map": "main/dpitGoldenRatioPosAlg-0afcc36d.js.map",
+  "main/assets/5-stars-500x116.png": "main/assets/5-stars-500x116-8b0c1597.png",
+  "main/assets/dp-arrow-left-solid.svg": "main/assets/dp-arrow-left-solid-ecbb7e19.svg",
+  "main/assets/dp-bars-solid.svg": "main/assets/dp-bars-solid-e8db7520.svg",
+  "main/assets/dp-close-cross-dark.svg": "main/assets/dp-close-cross-dark-3ebb5e1d.svg",
+  "main/assets/dp-close-cross.svg": "main/assets/dp-close-cross-31863031.svg",
+  "main/assets/dp-cross-hairs-target.svg": "main/assets/dp-cross-hairs-target-3af21054.svg",
+  "main/assets/dpit-desktop-solid.svg": "main/assets/dpit-desktop-solid-032f5357.svg",
+  "main/assets/dpit-directions-solid.svg": "main/assets/dpit-directions-solid-342b0ac4.svg",
+  "main/assets/dpit-ellipsis-h-solid.svg": "main/assets/dpit-ellipsis-h-solid-803440b0.svg",
+  "main/assets/dpit-mobile-alt-solid.svg": "main/assets/dpit-mobile-alt-solid-26393a5d.svg",
+  "main/assets/dpit-select_arrow-down-dark.svg": "main/assets/dpit-select_arrow-down-dark-b1e368ce.svg",
+  "main/assets/dpit-select_arrow-down.svg": "main/assets/dpit-select_arrow-down-c1a3deda.svg",
+  "main/assets/dpit-sliders-h-solid.svg": "main/assets/dpit-sliders-h-solid-7e443baa.svg",
+  "main/assets/dpit-square-plus-regular.svg": "main/assets/dpit-square-plus-regular-50a3e7e8.svg",
+  "main/assets/dpit-trash-alt-regular.svg": "main/assets/dpit-trash-alt-regular-f795854f.svg",
+  "main/assets/info-circle-solid.svg": "main/assets/info-circle-solid-92d3ccd5.svg",
+  "main/assets/spinner-2x.gif": "main/assets/spinner-2x-cc6f0bb6.gif",
+  "main/assets/spinner.gif": "main/assets/spinner-2c667e54.gif",
+  "runtime.js": "main/runtime-6d0638f7.js",
+  "runtime.js.map": "main/runtime-6d0638f7.js.map",
+  "vendors-dpit-admin-dpit-admin-settings-dpit-builder.js": "main/vendors-dpit-admin-dpit-admin-settings-dpit-builder-b7f48b44.js",
+  "vendors-dpit-admin-dpit-admin-settings-dpit-builder.js.map": "main/vendors-dpit-admin-dpit-admin-settings-dpit-builder-b7f48b44.js.map",
+  "vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder.css": "main/vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder-da3f8873.css",
+  "vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder.css.map": "main/vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder-da3f8873.css.map",
+  "vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder.js": "main/vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder-b2f88dd3.js",
+  "vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder.js.map": "main/vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder-b2f88dd3.js.map",
+  "wpackioEp": {
+    "dpit-base-style": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/dpit-base-style-83502ba6.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/dpit-base-style-83502ba6.js.map"
+        ],
+        "css": [
+          "main/dpit-base-style-99089e96.css"
+        ],
+        "css.map": [
+          "main/dpit-base-style-99089e96.css.map"
+        ]
+      }
+    },
+    "dpit-basic-theme-style": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/dpit-basic-theme-style-e0d2eb3c.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/dpit-basic-theme-style-e0d2eb3c.js.map"
+        ],
+        "css": [
+          "main/dpit-basic-theme-style-189f113c.css"
+        ],
+        "css.map": [
+          "main/dpit-basic-theme-style-189f113c.css.map"
+        ]
+      }
+    },
+    "dpit-minimal-theme-style": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/dpit-minimal-theme-style-7f7266ed.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/dpit-minimal-theme-style-7f7266ed.js.map"
+        ],
+        "css": [
+          "main/dpit-minimal-theme-style-c31e9e7c.css"
+        ],
+        "css.map": [
+          "main/dpit-minimal-theme-style-c31e9e7c.css.map"
+        ]
+      }
+    },
+    "dpit-colored-theme-style": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/dpit-colored-theme-style-807f0132.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/dpit-colored-theme-style-807f0132.js.map"
+        ],
+        "css": [
+          "main/dpit-colored-theme-style-7030b5e4.css"
+        ],
+        "css.map": [
+          "main/dpit-colored-theme-style-7030b5e4.css.map"
+        ]
+      }
+    },
+    "dpit-sticky-theme-style": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/dpit-sticky-theme-style-182ab759.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/dpit-sticky-theme-style-182ab759.js.map"
+        ],
+        "css": [
+          "main/dpit-sticky-theme-style-56748baf.css"
+        ],
+        "css.map": [
+          "main/dpit-sticky-theme-style-56748baf.css.map"
+        ]
+      }
+    },
+    "dpit-builder-style": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/dpit-builder-style-bf86b11a.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/dpit-builder-style-bf86b11a.js.map"
+        ],
+        "css": [
+          "main/dpit-builder-style-d1ae7a7e.css"
+        ],
+        "css.map": [
+          "main/dpit-builder-style-d1ae7a7e.css.map"
+        ]
+      }
+    },
+    "dpit-admin-bar-style": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/dpit-admin-bar-style-0aa9dc5e.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/dpit-admin-bar-style-0aa9dc5e.js.map"
+        ],
+        "css": [
+          "main/dpit-admin-bar-style-fcb2ab6e.css"
+        ],
+        "css.map": [
+          "main/dpit-admin-bar-style-fcb2ab6e.css.map"
+        ]
+      }
+    },
+    "dpit-admin-toolbar-style": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/dpit-admin-toolbar-style-c21d46a0.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/dpit-admin-toolbar-style-c21d46a0.js.map"
+        ],
+        "css": [
+          "main/dpit-admin-toolbar-style-fbceb25f.css"
+        ],
+        "css.map": [
+          "main/dpit-admin-toolbar-style-fbceb25f.css.map"
+        ]
+      }
+    },
+    "dpit-admin-toolbar": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/dpit-admin-toolbar-ebfa94b7.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/dpit-admin-toolbar-ebfa94b7.js.map"
+        ]
+      }
+    },
+    "dpit-admin-bar": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/default-dpit-admin-bar-dpit-admin-tour-edit-dpit-public-178bb1f1.js",
+          "main/dpit-admin-bar-81f66b2a.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/default-dpit-admin-bar-dpit-admin-tour-edit-dpit-public-178bb1f1.js.map",
+          "main/dpit-admin-bar-81f66b2a.js.map"
+        ]
+      }
+    },
+    "dpit-admin-always": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/dpit-admin-always-d7838972.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/dpit-admin-always-d7838972.js.map"
+        ]
+      }
+    },
+    "dpit-admin": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/vendors-dpit-admin-dpit-admin-settings-dpit-builder-b7f48b44.js",
+          "main/dpit-admin-38dd265f.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/vendors-dpit-admin-dpit-admin-settings-dpit-builder-b7f48b44.js.map",
+          "main/dpit-admin-38dd265f.js.map"
+        ]
+      }
+    },
+    "dpit-admin-style": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/dpit-admin-style-6b59fd75.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/dpit-admin-style-6b59fd75.js.map"
+        ],
+        "css": [
+          "main/dpit-admin-style-d690f276.css"
+        ],
+        "css.map": [
+          "main/dpit-admin-style-d690f276.css.map"
+        ]
+      }
+    },
+    "dpit-public": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/default-dpit-admin-bar-dpit-admin-tour-edit-dpit-public-178bb1f1.js",
+          "main/dpit-public-306d9925.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/default-dpit-admin-bar-dpit-admin-tour-edit-dpit-public-178bb1f1.js.map",
+          "main/dpit-public-306d9925.js.map"
+        ]
+      }
+    },
+    "dpit-builder": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder-b2f88dd3.js",
+          "main/vendors-dpit-admin-dpit-admin-settings-dpit-builder-b7f48b44.js",
+          "main/dpit-builder-59ffafb0.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder-b2f88dd3.js.map",
+          "main/vendors-dpit-admin-dpit-admin-settings-dpit-builder-b7f48b44.js.map",
+          "main/dpit-builder-59ffafb0.js.map"
+        ],
+        "css": [
+          "main/vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder-da3f8873.css",
+          "main/dpit-builder-844ce8f9.css"
+        ],
+        "css.map": [
+          "main/vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder-da3f8873.css.map",
+          "main/dpit-builder-844ce8f9.css.map"
+        ]
+      }
+    },
+    "dpit-admin-settings": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder-b2f88dd3.js",
+          "main/vendors-dpit-admin-dpit-admin-settings-dpit-builder-b7f48b44.js",
+          "main/dpit-admin-settings-a8e85110.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder-b2f88dd3.js.map",
+          "main/vendors-dpit-admin-dpit-admin-settings-dpit-builder-b7f48b44.js.map",
+          "main/dpit-admin-settings-a8e85110.js.map"
+        ],
+        "css": [
+          "main/vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder-da3f8873.css"
+        ],
+        "css.map": [
+          "main/vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder-da3f8873.css.map"
+        ]
+      }
+    },
+    "dpit-admin-settings-style": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/dpit-admin-settings-style-ec687324.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/dpit-admin-settings-style-ec687324.js.map"
+        ],
+        "css": [
+          "main/dpit-admin-settings-style-849a0c09.css"
+        ],
+        "css.map": [
+          "main/dpit-admin-settings-style-849a0c09.css.map"
+        ]
+      }
+    },
+    "dpit-admin-tour-edit": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder-b2f88dd3.js",
+          "main/default-dpit-admin-bar-dpit-admin-tour-edit-dpit-public-178bb1f1.js",
+          "main/dpit-admin-tour-edit-3c048cf5.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder-b2f88dd3.js.map",
+          "main/default-dpit-admin-bar-dpit-admin-tour-edit-dpit-public-178bb1f1.js.map",
+          "main/dpit-admin-tour-edit-3c048cf5.js.map"
+        ],
+        "css": [
+          "main/vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder-da3f8873.css",
+          "main/dpit-admin-tour-edit-3b2683e9.css"
+        ],
+        "css.map": [
+          "main/vendors-dpit-admin-settings-dpit-admin-tour-edit-dpit-builder-da3f8873.css.map",
+          "main/dpit-admin-tour-edit-3b2683e9.css.map"
+        ]
+      }
+    },
+    "dpit-admin-tour-edit-style": {
+      "assets": {
+        "js": [
+          "main/runtime-6d0638f7.js",
+          "main/dpit-admin-tour-edit-style-02398205.js"
+        ],
+        "js.map": [
+          "main/runtime-6d0638f7.js.map",
+          "main/dpit-admin-tour-edit-style-02398205.js.map"
+        ],
+        "css": [
+          "main/dpit-admin-tour-edit-style-aa7d40e3.css"
+        ],
+        "css.map": [
+          "main/dpit-admin-tour-edit-style-aa7d40e3.css.map"
+        ]
+      }
+    }
+  }
+}

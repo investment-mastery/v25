@@ -1,0 +1,396 @@
+<?php
+/**
+ * Copyright (c) 2012-2024 David J Bullock
+ * Web Power and Light, LLC
+ * https://webpowerandlight.com
+ * support@webpowerandlight.com
+ *
+ */
+
+  class_exists( 'm4is_pms8y' ) || die();
+ m4is_ypvg9::m4is_ju94();
+ final 
+class m4is_ypvg9 { static $m4is_vu_1 = false;
+ private static $m4is_bnd6ti;
+ private static $m4is_zq0k;
+ private static $m4is_dv_my;
+ private static $m4is_cqad;
+ private static $m4is_bh12zy;
+ private static $m4is_vzeli;
+ private static $m4is_r36qyu;
+ private static $m4is_zc5zn;
+ private static $m4is_wy2gq;
+ private static $m4is_du_v;
+ private static $m4is_wtyal;
+ private static $m4is_eyxbz6;
+ private static $m4is_dcf_7;
+ private static $m4is_f58g;
+ private static $m4is_z75a;
+ private static $m4is_z5_bp;
+ static 
+function m4is_ju94() { self::$m4is_bnd6ti = m4is_pms8y::m4is_e5l8a9();
+ self::$m4is_bh12zy = m4is_w0enbm::m4is_e5l8a9();
+ self::$m4is_z5_bp = m4is_u68pu::m4is_i9k3m();
+ self::$m4is_zq0k = (string) self::$m4is_bnd6ti->m4is_d14zr( 'appname' );
+ self::$m4is_cqad = (bool) self::$m4is_bnd6ti->m4is_oiewvu( 'settings', 'disable_login_sync', 0 );
+ self::$m4is_vzeli = (bool) self::$m4is_bnd6ti->m4is_oiewvu( 'settings', 'known_logins_only', 0 );
+ self::$m4is_r36qyu = (bool) self::$m4is_bnd6ti->m4is_oiewvu( 'settings', 'local_auth_only', 0 );
+ self::$m4is_wy2gq = (bool) self::$m4is_bnd6ti->m4is_oiewvu( 'settings', 'login_log', 0 );
+ self::$m4is_z75a = (bool) self::$m4is_bnd6ti->m4is_oiewvu( 'settings', 'sync_ecommerce', 0 );
+ self::$m4is_f58g = (bool) self::$m4is_bnd6ti->m4is_oiewvu( 'settings', 'sync_affiliate', 0 );
+ self::$m4is_dv_my = (int) self::$m4is_bnd6ti->m4is_oiewvu( 'settings', 'bruteforce_check', 0 );
+ self::$m4is_wtyal = (int) self::$m4is_bnd6ti->m4is_oiewvu( 'settings', 'maximum_login_ips', '' );
+ self::$m4is_eyxbz6 = (int) self::$m4is_bnd6ti->m4is_oiewvu( 'settings', 'maximum_login_timeframe', 0 );
+ self::$m4is_du_v = (int) self::$m4is_bnd6ti->m4is_oiewvu( 'settings', 'max_contact_age' );
+ self::$m4is_dcf_7 = (string) self::$m4is_bnd6ti->m4is_oiewvu( 'settings', 'password_field', 'Password' );
+ self::$m4is_zc5zn = 'memberium/login_count';
+ } private 
+function __construct() { }     static 
+function m4is_hjqcz2() : string { return MEMBERIUM_DB_LOGINLOG;
+ } static 
+function m4is_l_e0nr() : array { global $wpdb;
+ $m4is_nwue_ = $wpdb->get_charset_collate();
+ $m4is_dj_2 = self::m4is_hjqcz2();
+ $m4is_tovizk = "CREATE TABLE {$m4is_dj_2} (\n" . "id int(11) NOT NULL AUTO_INCREMENT, \n" . "appname varchar(32) NOT NULL, \n" . "logintime int(11) NOT NULL, \n" . "ipaddress varchar(45) NOT NULL, \n" . "username varchar(64) NOT NULL, \n" . "KEY logintime (logintime), \n" . "KEY username (username), \n" . "PRIMARY KEY  (id) \n" . ") ENGINE=InnoDB {$m4is_nwue_};
+";
+ return [ 'table' => $m4is_dj_2, 'sql' => $m4is_tovizk ];
+ }    public static 
+function m4is_hp8bu() { $m4is_e2kg = isset( $_SESSION['memb_user']['crm_id'] ) ? $_SESSION['memb_user']['crm_id'] : 0;
+ self::$m4is_bnd6ti->m4is_bbvp( 'logout/contact_id', $m4is_e2kg );
+ }    public static 
+function m4is_d0xjvu() { $m4is_u35v1x = self::$m4is_bnd6ti->m4is_oiewvu( 'settings', 'login_log_length', 30 );
+ if ( $m4is_u35v1x < 1 ) { return;
+ } global $wpdb;
+ $m4is_dj_2 = self::m4is_hjqcz2();
+ $m4is__z_1 = time() - ( $m4is_u35v1x * 86400 );
+ $m4is_tovizk = "DELETE FROM `{$m4is_dj_2}` WHERE `logintime` < {$m4is__z_1}";
+ $m4is_wbgl5s = sprintf( 'Login Log trimmed to last %d day(s).', $m4is_u35v1x );
+ $wpdb->query( $m4is_tovizk );
+ delete_transient( self::$m4is_zc5zn );
+ m4is__gu52::m4is_eh6lg( 0, 'cron', $m4is_wbgl5s );
+ }  static 
+function m4is_hdpc( $m4is_x0_hk, $m4is_gai6k = '', $m4is_j485e = '' ) { if ( $_SERVER['REQUEST_METHOD'] <> 'POST' ) { return $m4is_x0_hk;
+ } if ( empty( $m4is_gai6k ) ) { return $m4is_x0_hk;
+ } if ( defined( 'MEMBERIUM_DISABLE_BOT_CHECK' ) && MEMBERIUM_DISABLE_BOT_CHECK ) { return $m4is_x0_hk;
+ } if ( ! self::$m4is_dv_my ) { return $m4is_x0_hk;
+ } $m4is_dv_my = isset( $_POST['bruteforcecheck'] ) ? $_POST['bruteforcecheck'] : '';
+ if ( $m4is_dv_my == self::m4is_bi9dp() ) { return $m4is_x0_hk;
+ } self::$m4is_vu_1 = true;
+ $m4is_wbgl5s = self::$m4is_bnd6ti->m4is_zga5_c( 'i18n/loginfailed' );
+ $m4is_o7yk2n = self::$m4is_bnd6ti->m4is_zga5_c( 'i18n/contactmemberium' );
+ $m4is_x0_hk = new WP_Error( 'authentication_failed', $m4is_wbgl5s );
+ http_response_code( 403 );
+ header( 'HTTP/1.1 403 Forbidden' );
+ header( 'Status: 403 Forbidden' );
+ echo '<p>', strtoupper( MEMBERIUM_SKU ), ':', __LINE__, ' Forbidden</p>';
+ echo '<p>', $m4is_o7yk2n, '</p>';
+ exit();
+ }  static 
+function m4is_dow7at( $m4is_z50f = '', array $m4is_k4yeul = [] ) : string { $m4is_ejhbmn = self::m4is_bi9dp();
+ if (! empty( $m4is_ejhbmn ) ) { $m4is_uzfw8j = "<input name='bruteforcecheck' type='hidden' value='" . self::m4is_bi9dp() ."' />";
+ if (! empty( $m4is_k4yeul['display'] ) || current_action() == 'login_form') { echo $m4is_uzfw8j;
+ return '';
+ } } else { $m4is_uzfw8j = '';
+ } return "{$m4is_z50f}{$m4is_uzfw8j}";
+ }     private static 
+function m4is_bi9dp() { $m4is_ejhbmn = defined( 'MEMBERIUM_BRUTEFORCE_TOKEN' ) ? MEMBERIUM_BRUTEFORCE_TOKEN : '';
+ $m4is_wcs02 = wp_salt( 'secure_auth' );
+ if ( self::$m4is_dv_my == 1 ) { $m4is_ejhbmn = crc32( $_SERVER['DOCUMENT_ROOT'] . $m4is_wcs02 );
+ } elseif ( self::$m4is_dv_my == 2 ) { $m4is_ejhbmn = crc32( m4is_vv5u::m4is_s15o8k() . $m4is_wcs02 );
+ } return $m4is_ejhbmn;
+ }     static 
+function m4is_kvoe( $m4is_x0_hk, string $m4is_gai6k = '', string $m4is_j485e = '' ) {  if ( empty( $m4is_gai6k ) || empty( $m4is_j485e ) ) { return $m4is_x0_hk;
+ } if ( ! self::$m4is_z5_bp ) { return $m4is_x0_hk;
+ } if ( self::$m4is_cqad || self::$m4is_vzeli || self::$m4is_r36qyu ) { return $m4is_x0_hk;
+ }  $m4is_ngaqxl = get_user_by( 'email', $m4is_gai6k ) or $m4is_ngaqxl = get_user_by( 'login', $m4is_gai6k );
+ if ( is_a( $m4is_ngaqxl, 'WP_User' ) ) { return $m4is_x0_hk;
+ } $m4is_e2kg = self::$m4is_bnd6ti->m4is_b4u9( $m4is_gai6k, $m4is_j485e );
+ $m4is__migxk = self::$m4is_bnd6ti->m4is_b34y( $m4is_e2kg );
+ $m4is_x0_hk = get_user_by( 'ID', $m4is__migxk );
+ $_SESSION = self::$m4is_bnd6ti->m4is_akz3( $m4is__migxk );
+ return $m4is_x0_hk;
+ }  static 
+function m4is_xnl5( $m4is_x0_hk, string $m4is_gai6k = '', string $m4is_j485e = '' ) { if ( empty( $m4is_x0_hk ) && empty( $m4is_gai6k ) && empty( $m4is_j485e ) ) { return $m4is_x0_hk;
+ } if ( self::$m4is_cqad ) { return $m4is_x0_hk;
+ } if ( ! self::$m4is_z5_bp ) { return $m4is_x0_hk;
+ } if ( user_can( $m4is_x0_hk, 'manage_options' ) ) { return $m4is_x0_hk;
+ } $m4is_thrbc = get_user_by( 'email', $m4is_gai6k ) or $m4is_thrbc = get_user_by( 'login', $m4is_gai6k );
+ if ( is_a( $m4is_thrbc, 'WP_User' ) && ! user_can( $m4is_thrbc, 'manage_options' ) ) { self::$m4is_bnd6ti->m4is_ku4k( $m4is_thrbc->user_email );
+ }  return $m4is_x0_hk;
+ }  static 
+function m4is_ce_f( $m4is_x0_hk, $m4is_gai6k = '', $m4is_j485e = '' ) { if ( self::$m4is_r36qyu || self::$m4is_cqad) { return $m4is_x0_hk;
+ } $m4is_thrbc = get_user_by( 'email', $m4is_gai6k ) or $m4is_thrbc = get_user_by( 'login', $m4is_gai6k );
+ if ( ! $m4is_thrbc ) { return $m4is_x0_hk;
+ } $m4is_fliw = $m4is_thrbc->user_email;
+ $m4is_z59dj = m4is_bnrdbo::m4is_nsbvg( $m4is_fliw );
+ if ( is_array( $m4is_z59dj ) ) { $m4is_e2kg = isset( $m4is_z59dj[0] ) ? $m4is_z59dj[0] : 0;
+ } if ( $m4is_e2kg ) { $m4is_p9r_8e = m4is_bnrdbo::m4is_yvnol( $m4is_e2kg );
+ $m4is_ppfjb = $m4is_p9r_8e[ self::$m4is_dcf_7 ] ?? '';
+ $m4is_j485e = empty( trim( $m4is_j485e ) );
+ if ( $m4is_ppfjb !== 'PASSWORD_PLACEHOLDER' ) { if ( $m4is_ppfjb !== $m4is_j485e || empty( $m4is_ppfjb ) ) { $m4is_x0_hk = new WP_Error ( 'authentication_failed', __( '<strong>ERROR</strong>: Incorrect Password.', 'memberium' ) );
+ } else { $m4is_x0_hk = $m4is_thrbc;
+ } } } return $m4is_x0_hk;
+ } static 
+function m4is_lv4fel( $m4is_x0_hk, $m4is_gai6k = '', $m4is_j485e = '' ) { if ( ! is_a( $m4is_x0_hk, 'WP_User' ) ) { return $m4is_x0_hk;
+ } if ( user_can( $m4is_x0_hk, 'manage_options' ) ) { return $m4is_x0_hk;
+ } if ( ! self::$m4is_z5_bp ) { $m4is_w1dim = m4is__gu52::m4is_eh6lg( self::$m4is_bnd6ti->m4is_dpuy9(), 'loginfail', 'Logins Disabled - Invalid License', m4is_vv5u::m4is_s15o8k(), true );
+ $m4is_x0_hk = new WP_Error( 'authentication_failed', __( '<center><strong>All Logins Temporarily Disabled for Maintenance Mode</strong></center>', 'memberium' ) );
+ } return $m4is_x0_hk;
+ } static 
+function m4is_n_3i5( &$m4is_gai6k ) { if ( empty( $m4is_gai6k ) ) { return $m4is_gai6k;
+ } $m4is_x0_hk = get_user_by( 'email', $m4is_gai6k );
+ if ( ! empty( $m4is_x0_hk->user_login ) ) { $m4is_gai6k = $m4is_x0_hk->user_login;
+ }  return $m4is_gai6k;
+ } static 
+function m4is_xjafo( $m4is_x0_hk, $m4is_k4yeul = [] ) { global $wpdb;
+ $m4is_ig9p6 = is_a( 'WP_User', $m4is_x0_hk ) ? $m4is_x0_hk->ID : 0;
+ if ( is_a( 'WP_Error', $m4is_x0_hk ) ) { return $m4is_x0_hk;
+ } if ( ! self::$m4is_wy2gq ) { return $m4is_x0_hk;
+ } if ( is_a( $m4is_x0_hk, 'WP_User' ) ) { $m4is_gai6k = $m4is_x0_hk->user_login;
+ $m4is_ig9p6 = $m4is_x0_hk->ID;
+ } elseif ( is_string( $m4is_x0_hk ) ) { $m4is_gai6k = $m4is_x0_hk;
+ } if ( apply_filters( 'memberium/loginlog/bypass', false, $m4is_ig9p6 ) ) { return $m4is_x0_hk;
+ } $m4is_r6nh_b = [ 'appname' => self::$m4is_zq0k, 'time' => time(), 'ipaddress' => m4is_vv5u::m4is_s15o8k(), ];
+ $m4is_k4yeul = wp_parse_args( $m4is_k4yeul, $m4is_r6nh_b );
+ $m4is_tcw1l = self::m4is_hjqcz2();
+ $m4is_tovizk = "INSERT INTO `{$m4is_tcw1l}` (`appname`, `logintime`, `ipaddress`, `username`) VALUES (%s, %d, %s, %s)";
+ $m4is_tovizk = $wpdb->prepare( $m4is_tovizk, self::$m4is_zq0k, $m4is_k4yeul['time'], $m4is_k4yeul['ipaddress'], $m4is_gai6k );
+ $wpdb->query($m4is_tovizk);
+ delete_transient( self::$m4is_zc5zn );
+ return $m4is_x0_hk;
+ } static 
+function m4is_nrfm( $m4is_l579, $m4is_wj4ev7, $m4is_x0_hk ) { if ( is_a( $m4is_x0_hk, 'WP_Error' ) ) { return $m4is_l579;
+  if ( empty( $m4is_wj4ev7 ) ) { $m4is_l579 = get_admin_url();
+ } return $m4is_l579;
+ } if ( ! empty( $m4is_wj4ev7 ) ) { $m4is_l579 = $m4is_wj4ev7;
+ } if ( ! is_a( $m4is_x0_hk, 'WP_User' ) ) { return $m4is_l579;
+ } if ( empty( $_REQUEST['redirect_to'] ) && empty( $m4is_wj4ev7 ) ) { if ( user_can( $m4is_x0_hk, 'manage_options' ) ) { $m4is_l579 = admin_url();
+ } if ( $_SESSION['memb_user']['login_page'] == -1 ) { if ( function_exists( 'bbp_get_user_profile_url' ) ) { $m4is_l579 = bbp_get_user_profile_url( $m4is_x0_hk->ID );
+ } $m4is_l579 = get_permalink( $_SESSION['memb_user']['login_page'] );
+ } elseif ( $_SESSION['memb_user']['login_page'] > 0 ) { $m4is_l579 = get_permalink( $_SESSION['memb_user']['login_page'] );
+ } } if ( empty( $m4is_l579 ) ) { $m4is_l579 = admin_url();
+ } return $m4is_l579;
+ }  static 
+function m4is__tje( &$m4is_gai6k ) { global $wpdb;
+ $m4is_o90yg = 0;
+ if ( empty( $m4is_gai6k ) ) { return false;
+ }  $m4is_q_f4 = get_user_by('login', $m4is_gai6k);
+ if ( is_a( $m4is_q_f4, 'WP_User' ) && ( ! empty( $m4is_q_f4->caps['administrator'] ) ) || ( ! empty( $m4is_q_f4->caps['super_admin'] ) ) ) { return true;
+ } if (! self::$m4is_z5_bp ) { return false;
+ } $m4is_j485e = '';
+ if (! headers_sent() && session_status() !== PHP_SESSION_ACTIVE) { session_start();
+ } if (isset($_POST['pwd']) ) { $m4is_j485e = $_POST['pwd'];
+ } if (isset($_POST['password']) ) { $m4is_j485e = $_POST['password'];
+ } if (empty($m4is_j485e) ) { return false;
+ } $m4is_vzeli = self::$m4is_vzeli;
+ $m4is_nms9 = self::$m4is_bh12zy->m4is_rxfm_( $m4is_gai6k );
+ $m4is_q_f4 = get_user_by('email', $m4is_nms9);
+ $m4is_e2kg = self::$m4is_bnd6ti->m4is_b4u9( $m4is_gai6k, $m4is_j485e );
+ if ( $m4is_vzeli == false && self::$m4is_cqad == false ) { self::$m4is_bnd6ti->m4is_ku4k( $m4is_nms9 );
+ } if ( $m4is_e2kg > 0 ) { $m4is_q_f4 = self::$m4is_bnd6ti->m4is_e6w2m($m4is_e2kg);
+ if ($m4is_q_f4) { if (! username_exists($m4is_nms9) && ! email_exists($m4is_nms9) ) { if ($m4is_q_f4->user_email <> $m4is_nms9) { if ($m4is_q_f4->user_email == $m4is_q_f4->user_login) { $m4is_tovizk = "UPDATE `{$wpdb->users}` SET `user_email` = %s, `user_login` = %s WHERE `ID` = %d; ";
+ $m4is_tovizk = $wpdb->prepare($m4is_tovizk, strtolower($m4is_nms9), strtolower($m4is_nms9), $m4is_q_f4->ID);
+ } else { $m4is_tovizk = "UPDATE `{$wpdb->users}` SET `user_email` = %s WHERE `ID` = %d; ";
+ $m4is_tovizk = $wpdb->prepare($m4is_tovizk, strtolower($m4is_nms9), $m4is_q_f4->ID);
+ } $wpdb->query($m4is_tovizk);
+ } } } } $m4is_q_f4 = get_user_by( 'login', $m4is_gai6k);
+ if (! $m4is_q_f4) { $m4is_q_f4 = get_user_by('email', $m4is_gai6k);
+ } if (! $m4is_e2kg ) { global $user;
+ $user = new WP_Error('authentication_failed', __('ERROR: Unknown Account.', 'memberium') );
+ return NULL;
+ } self::$m4is_du_v = self::$m4is_du_v == 0 ? 5 : self::$m4is_du_v;
+ $m4is_tovizk = 'SELECT `value` FROM `' . MEMBERIUM_DB_CONTACTS . '` WHERE `id` = %d AND `appname` =  %s AND `fieldname` = "!LastUpdated" ';
+ $m4is_tovizk = $wpdb->prepare($m4is_tovizk, $m4is_e2kg, self::$m4is_zq0k );
+ $m4is_z5wiy = $wpdb->get_col($m4is_tovizk);
+ $m4is_thrbc = get_user_by( 'login', $m4is_gai6k );
+ if ( ! $m4is_thrbc ) { $m4is_thrbc = get_user_by( 'email', $m4is_gai6k );
+ } if ( self::$m4is_cqad == false ) { if ( $m4is_z5wiy < ( time() - self::$m4is_du_v ) ) { self::$m4is_bnd6ti->m4is_leu58($m4is_e2kg);
+ } } self::$m4is_bnd6ti->m4is_b34y( $m4is_e2kg );
+ $m4is_dcf_7 = self::$m4is_dcf_7;
+ $m4is_p9r_8e = m4is_bnrdbo::m4is_yvnol( $m4is_e2kg );
+ if ( stripslashes( $m4is_j485e ) != $m4is_p9r_8e[$m4is_dcf_7] ) { $user = new WP_Error('authentication_failed', __('<strong>ERROR</strong>: Incorrect Password.', 'memberium') );
+ return NULL;
+ } if ( self::$m4is_cqad == false ) { if ( self::$m4is_f58g ) { self::$m4is_bnd6ti->m4is_nf09rk($m4is_e2kg);
+ $m4is_mdqgk = self::$m4is_bh12zy->m4is_dnqd_($m4is_q_f4->ID);
+ } if ( self::$m4is_z75a ) { m4is_akcfiz::m4is__7phr_( $m4is_e2kg );
+ self::$m4is_bnd6ti->m4is_ts0h3x( $m4is_e2kg, true );
+ } } if ($m4is_thrbc) { $user = $m4is_thrbc;
+ $_POST['username'] = $user->user_login;
+ $m4is_gai6k = $user->user_login;
+ wp_set_current_user($user->ID);
+ } self::$m4is_bnd6ti->m4is_snyx( true );
+ if ($m4is_o90yg) { $user = wp_set_current_user($m4is_o90yg);
+ } $m4is_iystd2 = isset($m4is_p9r_8e['Groups']) ? explode(',', $m4is_p9r_8e['Groups']) : [];
+ self::$m4is_bnd6ti->m4is_snyx( false );
+ } static 
+function m4is_fx4ly($m4is_euyfd, $m4is_x0_hk = NULL) { if (isset($_POST['firstname']) || isset($_POST['lastname']) ) { if (isset($_POST['firstname']) ) { $m4is_ujq5r1 = $_POST['firstname'];
+ } if (isset($_POST['lastname']) ) { $m4is_bf5on = $_POST['lastname'];
+ } } else { $m4is_ujq5r1 = $m4is_x0_hk->first_name;
+ $m4is_bf5on = $m4is_x0_hk->last_name;
+ if (strpos($m4is_x0_hk->display_name, ' ') > 0) { $m4is_ujq5r1 = trim(substr($m4is_x0_hk->display_name, 0, strpos($m4is_x0_hk->display_name, ' ') ) );
+ $m4is_bf5on = trim(substr($m4is_x0_hk->display_name, strpos($m4is_x0_hk->display_name, ' ') + 1) );
+ } } $m4is_ip0bf = trim($m4is_ujq5r1 . ' ' . $m4is_bf5on);
+ $m4is_ig9p6 = $m4is_x0_hk->ID;
+ $m4is_kd_a34 = 0;
+ $m4is_p9r_8e = [ 'FirstName' => $m4is_ujq5r1, 'LastName' => $m4is_bf5on, 'Email' => $m4is_x0_hk->user_email, ];
+ if ($m4is_kd_a34 > 0) { $m4is_p9r_8e['LeadSourceId'] = $m4is_kd_a34;
+ } if (get_user_meta($m4is_x0_hk->ID, '_fb_is_sync', true) != 1) { if ( self::$m4is_bh12zy->m4is_br7kh() ) { $m4is_e2kg = m4is_bnrdbo::m4is_klk1gy($m4is_p9r_8e);
+ m4is_bnrdbo::m4is_xj2eb($m4is_p9r_8e['Email'], 'Membership Site Registration');
+ $m4is_d0ju = self::$m4is_bnd6ti->m4is_oiewvu('settings', 'new_user_registration_tag');
+ if ($m4is_d0ju) { self::$m4is_bnd6ti->m4is_tcle75([$m4is_d0ju], $m4is_e2kg);
+ } delete_user_meta($m4is_x0_hk->ID, '_fb_is_sync');
+ add_user_meta($m4is_x0_hk->ID, '_fb_is_sync', 1);
+ } }  $m4is_x0_hk = wp_get_current_user();
+ if (! is_a($m4is_x0_hk, 'WP_User') ) { return $m4is_x0_hk;
+ } self::$m4is_bh12zy->m4is_dnqd_($m4is_x0_hk);
+ } static 
+function m4is_p9pxq($m4is_euyfd, $m4is_x0_hk = NULL) { if ($m4is_x0_hk == NULL) { $m4is_x0_hk = wp_get_current_user();
+ }  if (user_can($m4is_x0_hk, 'manage_options') ) { return;
+ } if ( self::$m4is_bnd6ti->m4is_oiewvu('settings', 'simultaneous_logins', false) ) { self::$m4is_bnd6ti->m4is_hb5ov($m4is_x0_hk->ID);
+ }  if (empty($_SESSION['memb_user']) ) { $_SESSION = self::$m4is_bnd6ti->m4is_akz3($m4is_x0_hk->ID);
+ } $_POST['redirect_to'] = empty($_POST['redirect_to']) ? '' : $_POST['redirect_to'];
+ $_POST['redirect_to'] = empty($_POST['redirect']) ? $_POST['redirect_to'] : $_POST['redirect'];
+  if (0 == self::$m4is_bnd6ti->m4is_oiewvu('settings', 'allow_wpadmin') ) { if (stripos($_POST['redirect_to'], '/wp-admin') !== false) { $_POST['redirect_to'] = '';
+ } } $m4is_ig9p6 = (int) $m4is_x0_hk->ID;
+ $m4is_e2kg = (int) m4is_bnrdbo::m4is_ltwpgs($m4is_ig9p6);
+ if ($m4is_ig9p6) {  m4is_akcfiz::m4is_e8p0($m4is_e2kg);
+  $m4is_j5p3w = (int) get_user_meta($m4is_ig9p6, 'login_count', true) + 1;
+ $m4is_oa_z = update_user_meta($m4is_ig9p6, 'login_count', $m4is_j5p3w);
+ $m4is_oa_z = update_user_meta($m4is_ig9p6, 'login_ip_address', m4is_vv5u::m4is_s15o8k() );
+ $m4is_oa_z = update_user_meta($m4is_ig9p6, 'last_login_time', time() );
+ if ($m4is_e2kg) { $m4is_p9r_8e = m4is_bnrdbo::m4is_yvnol($m4is_e2kg);
+  self::$m4is_bh12zy->m4is_q06g4q($m4is_p9r_8e, $m4is_ig9p6);
+ if ( self::$m4is_cqad == false ) { $m4is_x1oayh = (int) self::$m4is_bnd6ti->m4is_oiewvu( 'settings', 'login_actionset' );
+ $m4is_ctsx = (int) self::$m4is_bnd6ti->m4is_oiewvu( 'settings', 'login_tag' );
+ $m4is_nekw = trim( self::$m4is_bnd6ti->m4is_oiewvu( 'settings', 'login_goal' ) );
+ $m4is_e364_ = self::$m4is_bnd6ti->m4is_oiewvu( 'settings', 'last_login_field' );
+ $m4is_pyda = self::$m4is_bnd6ti->m4is_oiewvu( 'settings', 'sync_affiliate' );
+ if (! empty($m4is_nekw) ) { self::$m4is_bnd6ti->m4is_xy3j($m4is_e2kg, $m4is_xf9b);
+ }  if ( $m4is_x1oayh ) { self::$m4is_bnd6ti->m4is_u86vzq( $m4is_x1oayh, (int) $m4is_e2kg );
+ }  if ( $m4is_ctsx ) { self::$m4is_bnd6ti->m4is_tcle75( $m4is_ctsx, $m4is_e2kg );
+ } if ( ! empty( $m4is_pyda ) ) { self::$m4is_bnd6ti->m4is_nf09rk( $m4is_e2kg );
+ }  $m4is_w_8g = [];
+ if (! empty($m4is_e364_) ) { $m4is_jnep2 = date_default_timezone_get();
+ date_default_timezone_set('America/New_York');
+ $m4is_w_8g[$m4is_e364_] = date('Y-m-d\TH:i:s');
+ date_default_timezone_set($m4is_jnep2);
+ } if (! empty($m4is_w_8g) ) { m4is_bnrdbo::m4is_cseh($m4is_e2kg, $m4is_w_8g);
+  } } } } if ( defined( 'DOING_AJAX' ) && DOING_AJAX ) { self::$m4is_bh12zy->m4is_hyfr3(false);
+ } }     static 
+function m4is_lo2vuf($m4is_gai6k, $m4is_j485e = '', $m4is_ze2m = false) { global $wpdb;
+ if (is_user_logged_in() ) { return false;
+ } $m4is_dcf_7 = self::$m4is_bnd6ti->m4is_oiewvu('settings', 'password_field');
+ $m4is_vzeli = self::$m4is_bnd6ti->m4is_oiewvu('settings', 'known_logins_only');
+ $m4is_e2kg = self::$m4is_bnd6ti->m4is_b4u9( $m4is_gai6k, $m4is_j485e );
+  if ( $m4is_vzeli ) { $m4is_tovizk = 'SELECT id FROM ' . MEMBERIUM_DB_CONTACTS . ' WHERE id = %d AND appname = %s LIMIT 1;';
+ $m4is_tovizk = $wpdb->prepare($m4is_tovizk, $m4is_e2kg, self::$m4is_zq0k );
+ $m4is_pdi4ws = (int) $wpdb->get_var($m4is_tovizk);
+ if ( $m4is_pdi4ws <> $m4is_e2kg ) { return false;
+ } } if ($m4is_e2kg) { $m4is_p9r_8e = m4is_bnrdbo::m4is_yvnol($m4is_e2kg);
+ self::$m4is_bnd6ti->m4is_b34y($m4is_e2kg);
+ }  if (m4is_wbc8os::m4is_jjgo() == $m4is_e2kg) { if ($m4is_ze2m) { return get_current_user_id();
+ } else { if (! empty($_SESSION['memb_user']['login_page']) ) {  m4is_aoxw::m4is_g7bv();
+ wp_redirect(get_permalink($_SESSION['memb_user']['login_page']) );
+ exit;
+ } else { return;
+ } } } $m4is_re1wj = self::$m4is_bh12zy->m4is_rxfm_($m4is_gai6k);
+ self::$m4is_bnd6ti->m4is_ku4k( $m4is_re1wj );
+ $m4is_x0_hk = get_user_by('email', $m4is_re1wj);
+ $m4is_ig9p6 = $m4is_x0_hk->ID;
+ $_POST['pwd'] = $m4is_p9r_8e[$m4is_dcf_7];
+ m4is_ypvg9::m4is__tje($m4is_gai6k);
+ if ($m4is_ig9p6 > 0) { wp_set_auth_cookie($m4is_ig9p6);
+ wp_set_current_user($m4is_ig9p6);
+ m4is_ypvg9::m4is__tje($m4is_gai6k);
+ self::$m4is_bh12zy->m4is_dnqd_($m4is_x0_hk);
+     if ($m4is_ze2m) { return $m4is_ig9p6;
+ } else {  m4is_aoxw::m4is_g7bv();
+ if (! empty( $_SESSION['memb_user']['login_page'] ) ) { wp_redirect( get_permalink( $_SESSION['memb_user']['login_page'] ) );
+ exit;
+ } else { return;
+ } } } return false;
+ } static 
+function m4is_f4fy( $m4is_gai6k, $m4is_q_f4 = null ) { global $user;
+ $m4is_wbgl5s = '';
+ self::$m4is_bnd6ti->m4is_nekv();
+ if ( is_a( $m4is_q_f4, 'WP_Error' ) ) { $m4is_e2kg = empty( $m4is_gai6k ) ? 0 : self::$m4is_bnd6ti->m4is_gz8a( (string) $m4is_gai6k );
+ $m4is_p6_h = empty( $m4is_q_f4->errors ) ? [] : $m4is_q_f4->errors;
+ foreach( $m4is_p6_h as $m4is_s2ge5 => $m4is_w_o7al ) { $m4is_wbgl5s .= $m4is_w_o7al[0] . ' ';
+ } $m4is_wbgl5s = trim( strip_tags( $m4is_wbgl5s ) );
+ $m4is_w1dim = m4is__gu52::m4is_eh6lg( $m4is_e2kg, 'loginfail', "({$m4is_gai6k}) {$m4is_wbgl5s}", m4is_vv5u::m4is_s15o8k(), true );
+ setcookie( 'login_error', $m4is_wbgl5s, ( time() + 60 ) );
+ }   if ( isset( $_POST['woocommerce-login-nonce'] ) ) { return;
+ } $m4is_t8cnl = isset( $_SERVER['HTTP_REFERER'] ) ? $_SERVER['HTTP_REFERER'] : '';
+  if ( empty( $refererer ) ) { $m4is_c14oc = self::$m4is_bnd6ti->m4is_oiewvu( 'settings', 'login_url' );
+ $m4is_t8cnl = get_permalink( $m4is_c14oc );
+ }  if ( ! empty( $m4is_t8cnl ) && ! strstr( $m4is_t8cnl, 'wp-login' ) && ! strstr( $m4is_t8cnl, 'wp-admin' ) ) { $m4is_x4nfwb = [];
+ $m4is_x4nfwb['login'] = 'failed';
+ if ( ! empty( $_POST['redirect_to'] ) && stripos( $_POST['redirect_to'], '/wp-admin/' ) === false ) { $m4is_x4nfwb['redirect_to'] = $_POST['redirect_to'];
+ } $m4is_t8cnl = add_query_arg( $m4is_x4nfwb, $m4is_t8cnl );
+ m4is_aoxw::m4is_g7bv();
+ wp_redirect( $m4is_t8cnl );
+  exit;
+ } }    static 
+function m4is__ik7lz( $m4is_x0_hk, $m4is_gai6k = '', $m4is_j485e = '' ) { if ( ! is_a( $m4is_x0_hk, 'WP_User' ) ) { return $m4is_x0_hk;
+ }  if ( user_can( $m4is_x0_hk, 'manage_options' ) ) { return $m4is_x0_hk;
+ } $m4is_x0_hk = self::m4is_xghr( $m4is_x0_hk, $m4is_gai6k, $m4is_j485e );
+ if ( is_a( $m4is_x0_hk, 'WP_User' ) ) { $m4is_x0_hk = self::m4is_xe85y( $m4is_x0_hk, $m4is_gai6k, $m4is_j485e );
+ } if ( is_a( $m4is_x0_hk, 'WP_User' ) ) { $m4is_x0_hk = self::m4is_t247pn( $m4is_x0_hk, $m4is_gai6k, $m4is_j485e );
+ } if ( is_a( $m4is_x0_hk, 'WP_User' ) ) { $m4is_x0_hk = self::m4is_v0gx9( $m4is_x0_hk, $m4is_gai6k, $m4is_j485e );
+ } return $m4is_x0_hk;
+ } private static 
+function m4is_xghr($m4is_x0_hk, $m4is_gai6k = '', $m4is_j485e = '') { if ( self::$m4is_bnd6ti->m4is_oiewvu('settings', 'allow_local_logins') ) { return $m4is_x0_hk;
+ } if (user_can($m4is_x0_hk, 'manage_options')) { return $m4is_x0_hk;
+ } $m4is_e2kg = self::$m4is_bnd6ti->m4is_gz8a($m4is_x0_hk->user_email);
+ if ($m4is_e2kg) { $m4is_p9r_8e = m4is_bnrdbo::m4is_yvnol($m4is_e2kg);
+ if (empty($m4is_p9r_8e)) { $m4is_e2kg = false;
+ } } if ( empty( $m4is_e2kg ) ) { $m4is_x0_hk = new WP_Error('authentication_failed', __('Local logins not permitted.', 'memberium') );
+ self::$m4is_bnd6ti->m4is_nekv();
+ } return $m4is_x0_hk;
+ } private static 
+function m4is_xe85y($m4is_x0_hk, $m4is_gai6k = '', $m4is_j485e = '') { static $m4is_kl8oy = [];
+ if ( ! self::$m4is_bnd6ti->m4is_oiewvu('settings', 'site_ban_tag') ) { return $m4is_x0_hk;
+ } $m4is_e2kg = self::$m4is_bnd6ti->m4is_dpuy9();
+ if ( $m4is_e2kg) { $m4is_p9r_8e = m4is_bnrdbo::m4is_yvnol($m4is_e2kg);
+ $m4is_iystd2 = isset($m4is_p9r_8e['Groups']) ? explode(',', $m4is_p9r_8e['Groups']) : [];
+ $m4is_ly9pqf = self::$m4is_bnd6ti->m4is_oiewvu('settings', 'site_ban_tag');
+  if (in_array($m4is_ly9pqf, $m4is_iystd2) ) { self::$m4is_bnd6ti->m4is_nekv();
+ if (empty($m4is_kl8oy[$m4is_x0_hk->ID]) ) { $m4is_w1dim = m4is__gu52::m4is_eh6lg($m4is_e2kg, 'loginfail', 'Site Ban Tag Found - ' . $m4is_x0_hk->user_email, m4is_vv5u::m4is_s15o8k(), true);
+ $m4is_kl8oy[$m4is_x0_hk->ID] = 1;
+ } $m4is_x0_hk = new WP_Error( 'authentication_failed', __('Your access is currently suspended. Please contact customer support for further details.', 'memberium') );
+ } } return $m4is_x0_hk;
+ } private static 
+function m4is_t247pn($m4is_x0_hk, $m4is_gai6k = '', $m4is_j485e = '') { if ( ! self::$m4is_bnd6ti->m4is_oiewvu('settings', 'require_membership') ) { return $m4is_x0_hk;
+ } $m4is_e2kg = self::$m4is_bnd6ti->m4is_dpuy9();
+ if (! $m4is_e2kg) { return $m4is_x0_hk;
+ } if (! empty($_SESSION['memb_user']['membership_tags']) ) { return $m4is_x0_hk;
+ } if (! isset($_SESSION['memb_user']['membership_tags']) ) { $session = self::$m4is_bnd6ti->m4is_akz3($m4is_x0_hk->ID);
+ if (! empty($session['memb_user']['membership_tags']) ) { return $m4is_x0_hk;
+ } }  self::$m4is_bnd6ti->m4is_nekv();
+ $m4is_x0_hk = new WP_Error('authentication_failed', __('<strong>Error</strong>: Access Denied - No Active Membership.', 'memberium') );
+ return $m4is_x0_hk;
+ }  private static 
+function m4is_v0gx9( $m4is_x0_hk, $m4is_gai6k = '', $m4is_j485e = '' ) { global $wpdb;
+ $m4is_ig9p6 = (int) $m4is_x0_hk->ID;
+ $m4is_e2kg = self::$m4is_bnd6ti->m4is_dpuy9();
+ if ( ! $m4is_e2kg ) { return $m4is_x0_hk;
+ }  if ( apply_filters( 'memberium/loginsecurity/iplimits/precheck', false, $m4is_ig9p6 ) ) { return $m4is_x0_hk;
+ }  if ( apply_filters( 'memberium/loginsecurity/iplimits/ipaddress', false, m4is_vv5u::m4is_s15o8k(), $m4is_ig9p6 ) ) { return $m4is_x0_hk;
+ }  $m4is_ppsx = (int) apply_filters( 'memberium/loginsecurity/iplimits/maxips', self::$m4is_wtyal, $m4is_ig9p6 );
+ $m4is_n5hox3 = (int) apply_filters( 'memberium/loginsecurity/iplimits/hours', self::$m4is_eyxbz6, $m4is_ig9p6 );
+ if ( $m4is_ppsx && $m4is_n5hox3 ) { $m4is_tcw1l = self::m4is_hjqcz2();
+ $m4is_tmk3i = m4is_vv5u::m4is_s15o8k();
+ $m4is_zq0k = self::$m4is_zq0k;
+ $m4is_toj6s = time() - (3600 * $m4is_n5hox3);
+ $m4is_tovizk = "SELECT count( distinct( `ipaddress` ) ) as `logins` FROM `{$m4is_tcw1l}` WHERE `appname` = %s AND `logintime` >= %d AND `username` = %s AND `ipaddress` != %s ";
+ $m4is_tovizk = $wpdb->prepare( $m4is_tovizk, self::$m4is_zq0k, $m4is_toj6s, $m4is_gai6k, $m4is_tmk3i );
+ $m4is_oa_z = $wpdb->get_col( $m4is_tovizk );
+ $m4is_j5p3w = end( $m4is_oa_z );
+ if ( $m4is_j5p3w >= $m4is_ppsx ) { $m4is_jadl06 = 'Login Failed';
+  $m4is_wbgl5s = 'Maximum Login IPs exceeded.';
+  $m4is_fliw = isset( $m4is_x0_hk->user_email ) ? $m4is_x0_hk->user_email : '';
+ $m4is_x0_hk = new WP_Error( 'authentication_failed', __( "<strong>{$m4is_jadl06}</strong>:  {$m4is_wbgl5s}", 'memberium' ) );
+ return $m4is_x0_hk;
+ } } return $m4is_x0_hk;
+ } }
+

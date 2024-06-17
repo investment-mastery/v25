@@ -1,0 +1,17 @@
+/*!
+ * 
+ * Intro Tour Tutorial PRO
+ * 
+ * @author [object Object]
+ * @version 4.4.0
+ * @link #
+ * @license 
+ * 
+ * Copyright (c) 2022 [object Object]
+ * 
+ * Copyright (c) 2020 DeepPresentation <Tomáš Groulík>. All rights reserved.
+ * 
+ * Compiled with the help of https://wpack.io
+ * A zero setup Webpack Bundler Script for WordPress
+ */
+.dp-noscroll{overflow:hidden}.dpintro-wrapper.colored .dpintro-tooltip{background-color:rgba(var(--accent-color), 1)}.dpintro-wrapper.colored .dpintro-tooltip .dpintro-tooltip-text{letter-spacing:.1em;color:rgba(var(--accent-contrast-color), 1)}.dpintro-wrapper.colored .dpintro-tooltip .dpintro-tooltip-text a,.dpintro-wrapper.colored .dpintro-tooltip .dpintro-tooltip-text p,.dpintro-wrapper.colored .dpintro-tooltip .dpintro-tooltip-text h1,.dpintro-wrapper.colored .dpintro-tooltip .dpintro-tooltip-text h2,.dpintro-wrapper.colored .dpintro-tooltip .dpintro-tooltip-text h3,.dpintro-wrapper.colored .dpintro-tooltip .dpintro-tooltip-text h4,.dpintro-wrapper.colored .dpintro-tooltip .dpintro-tooltip-text h5,.dpintro-wrapper.colored .dpintro-tooltip .dpintro-tooltip-text h6{color:rgba(var(--accent-contrast-color), 1)}.dpintro-wrapper.colored .dpintro-tooltip .dpintro-tooltip-text a{text-decoration:underline}.dpintro-wrapper.colored .dpintro-arrow--top{border-bottom-color:rgba(var(--accent-color), 1)}.dpintro-wrapper.colored .dpintro-arrow--right{border-left-color:rgba(var(--accent-color), 1)}.dpintro-wrapper.colored .dpintro-arrow--bottom{border-top-color:rgba(var(--accent-color), 1)}.dpintro-wrapper.colored .dpintro-arrow--left{border-right-color:rgba(var(--accent-color), 1)}.dpintro-wrapper.colored .dpintro-button{color:rgba(var(--accent-color), 1);background-color:rgba(var(--accent-contrast-color), 0.863)}.dpintro-wrapper.colored .dpintro-button:not(.dpintro-disabled):focus{color:rgba(var(--accent-color), 1);background-color:rgba(var(--accent-contrast-color), 0.933)}.dpintro-wrapper.colored .dpintro-button:not(.dpintro-disabled):active,.dpintro-wrapper.colored .dpintro-button:not(.dpintro-disabled):hover,.dpintro-wrapper.colored .dpintro-button:not(.dpintro-disabled).hovered{color:rgba(var(--accent-contrast-inv-color), 0.7);background-color:rgba(var(--accent-contrast-color), 1)}.dpintro-wrapper.colored .dpintro-tooltip-number{font-family:tahoma,Arial,verdana,sans-serif}.dpintro-wrapper.colored .dpintro-bullets ul li div{background:rgba(var(--accent-contrast-color), 0.336)}.dpintro-wrapper.colored .dpintro-bullets ul li div.active,.dpintro-wrapper.colored .dpintro-bullets ul li div:hover{background:rgba(var(--accent-contrast-color), 0.737)}

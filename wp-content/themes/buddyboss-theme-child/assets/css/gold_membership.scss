@@ -1,0 +1,289 @@
+a.timetrackeractive, .timer li:hover a, h5.points, .u-text--right strong{
+    color:#D79745 !important;
+}
+a.accessbtn,a#finish {
+    background: #D79745;
+}
+a.accessbtn:hover,a#finish:hover{
+    color:#fff;
+    background:#C1802D; 
+}
+.resumebtns a:hover{
+    color:#fff;
+} 
+.week-view{
+    .day{
+        svg{
+            &.date_completed{
+                circle{
+                    stroke: none;
+                    fill: #D79745;
+                }
+            }
+        }
+    }
+    .today{
+        svg{
+            circle{
+                stroke: #D79745;
+            }
+            circle + circle{
+                fill: #D79745;
+            }
+        }
+        svg + span{
+            color:#D79745
+        }
+    }
+}
+.accessbtn#completed, .accessbtn#completed:hover{
+    background-color: #D79745 !important;
+    color:#fff;
+}
+
+.elementor-button{
+    background-color: #D79745 !important;
+}
+
+.bb-single-course-sidebar{
+    .bb-button-wrap{
+        .learndash_join_button{
+            background: #D79745;
+        }
+    }
+}
+.learndash-wrapper{
+    .ld-primary-background{
+        background: #D79745 !important;
+    }
+}
+.learndash-wrapper{
+    .ld-progress-percentage{
+        color:#45A2D6 !important
+    }
+}
+.ld-status-icon.ld-status-complete.ld-secondary-background{
+    background-color:#45A2D6 !important
+}
+
+
+.page-template-page-template-dashboard{
+    .blue_box{
+        background:#000;
+    }
+}
+.register_btn a, .register_btn a:hover{
+    color:#45A2D6 !important;
+    border-color:#45A2D6 !important;
+}
+
+.timetrackeractive i#timer, .timer li:hover a #timer{
+    background-position: left center;
+    background-image: 
+    url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICA8cGF0aCBkPSJNOS45OTk5NiA1LjAwMDMzVjEwLjAwMDNMMTMuMzMzMyAxMS42NjdNMTguMzMzMyAxMC4wMDAzQzE4LjMzMzMgMTQuNjAyNyAxNC42MDIzIDE4LjMzMzcgOS45OTk5NiAxOC4zMzM3QzUuMzk3NTkgMTguMzMzNyAxLjY2NjYzIDE0LjYwMjcgMS42NjY2MyAxMC4wMDAzQzEuNjY2NjMgNS4zOTc5NSA1LjM5NzU5IDEuNjY2OTkgOS45OTk5NiAxLjY2Njk5QzE0LjYwMjMgMS42NjY5OSAxOC4zMzMzIDUuMzk3OTUgMTguMzMzMyAxMC4wMDAzWiIgc3Ryb2tlPSIjRDc5NzQ1IiBzdHJva2Utd2lkdGg9IjEuNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgICAgICAgPC9zdmc+");
+}
+
+.timetrackeractive i#manual, .timer li:hover a #manual{
+    background-position: left center;
+    background-image: 
+    url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICAgICAgPHBhdGggZD0iTTkuMTY2NjMgMy4zMzMySDMuMzMzMjlDMi44OTEyNyAzLjMzMzIgMi40NjczNCAzLjUwODc5IDIuMTU0NzggMy44MjEzNUMxLjg0MjIyIDQuMTMzOTEgMS42NjY2MyA0LjU1Nzg0IDEuNjY2NjMgNC45OTk4NlYxNi42NjY1QzEuNjY2NjMgMTcuMTA4NiAxLjg0MjIyIDE3LjUzMjUgMi4xNTQ3OCAxNy44NDVDMi40NjczNCAxOC4xNTc2IDIuODkxMjcgMTguMzMzMiAzLjMzMzI5IDE4LjMzMzJIMTVDMTUuNDQyIDE4LjMzMzIgMTUuODY1OSAxOC4xNTc2IDE2LjE3ODUgMTcuODQ1QzE2LjQ5MSAxNy41MzI1IDE2LjY2NjYgMTcuMTA4NiAxNi42NjY2IDE2LjY2NjVWMTAuODMzMk0xNS40MTY2IDIuMDgzMkMxNS43NDgxIDEuNzUxNjggMTYuMTk3OCAxLjU2NTQzIDE2LjY2NjYgMS41NjU0M0MxNy4xMzU1IDEuNTY1NDMgMTcuNTg1MSAxLjc1MTY4IDE3LjkxNjYgMi4wODMyQzE4LjI0ODEgMi40MTQ3MiAxOC40MzQ0IDIuODY0MzYgMTguNDM0NCAzLjMzMzJDMTguNDM0NCAzLjgwMjA0IDE4LjI0ODEgNC4yNTE2OCAxNy45MTY2IDQuNTgzMkw5Ljk5OTk2IDEyLjQ5OTlMNi42NjY2MyAxMy4zMzMyTDcuNDk5OTYgOS45OTk4NkwxNS40MTY2IDIuMDgzMloiIHN0cm9rZT0iI0Q3OTc0NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogICAgICAgICAgICA8L3N2Zz4=");
+}
+.skillBar{
+    background-color: #45A2D6;
+}
+.level p span{
+    color: #45A2D6;
+}
+.bb-buddypanel{
+    .buddypanel.gold-membership-sidebar, .buddypanel.gold-membership-sidebar .panel-head{
+        background: #191919;
+    }
+}
+.single-sfwd-courses{
+    .bb-learndash-content-wrap{
+        .ld-alert.ld-alert-success.ld-alert-certificate{
+            border: 1px solid #D79745 !important;
+            background:#FFF8F0 !important;
+
+            .ld-alert-messages{
+                color:#000;
+            }
+            .ld-icon-certificate{
+                background: #45A2D6 !important;
+            }
+
+            .ld-button{
+                background:#D79745 !important;
+            }
+        }
+        .ld-course-status{
+            .ld-progress{
+                .ld-progress-bar{
+                    .ld-progress-bar-percentage.ld-secondary-background{
+                        background-color:#45A2D6 !important;
+                    }
+                }
+            }
+        }
+        .ld-lesson-list{
+            .ld-item-list-items{
+                .ld-item-list-item{
+                    .ld-item-list-item-preview{
+                        .ld-item-name{
+                            .ld-status-icon{
+                                &.ld-status-complete{
+                                    border-color: #45A2D6!important;
+                                    background-color:#45A2D6 !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .bb-single-course-sidebar{
+        .bb-course-preview-content{
+            .bb-course-status-wrap{
+                .ld-status.ld-status-progress.ld-primary-background{
+                    display:none;
+                }
+                .ld-status.ld-status-complete.ld-secondary-background{
+                    background:#45A2D6 !important;
+                }
+            }
+            .bb-button-wrap{
+                .ld-primary-background{
+                    background-color:#D79745 !important;
+                }
+            }
+        }
+    }
+}
+
+.single-sfwd-lessons, .single-sfwd-topic{
+    .learndash-wrapper{
+        .ld-breadcrumbs{
+            a{
+                color:#D79745!important;
+            }
+        }
+        ul.lesson-tab{
+            li.current{
+                color: #D79745;
+                border-bottom: 2px solid #D79745;
+            }
+            li#show-tab-action-steps{
+                background-image:url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTUiIHZpZXdCb3g9IjAgMCAyMCAxNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTYgMS4xOTMzNkgxOU02IDcuMTkzMzZIMTlNNiAxMy4xOTM0SDE5TTEgMS4xOTMzNkgxLjAxTTEgNy4xOTMzNkgxLjAxTTEgMTMuMTkzNEgxLjAxIiBzdHJva2U9IiNBNkIwQkIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=");
+            }
+            
+            li.current#show-tab-action-steps{
+                background-image:url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAyMCAxNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTYgMUgxOU02IDdIMTlNNiAxM0gxOU0xIDFIMS4wMU0xIDdIMS4wMU0xIDEzSDEuMDEiIHN0cm9rZT0iI0Q3OTc0NSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==");
+            }
+            li.current#show-tab-notes{
+                background-image:url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAxOCAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDFIM0MyLjQ2OTU3IDEgMS45NjA4NiAxLjIxMDcxIDEuNTg1NzkgMS41ODU3OUMxLjIxMDcxIDEuOTYwODYgMSAyLjQ2OTU3IDEgM1YxOUMxIDE5LjUzMDQgMS4yMTA3MSAyMC4wMzkxIDEuNTg1NzkgMjAuNDE0MkMxLjk2MDg2IDIwLjc4OTMgMi40Njk1NyAyMSAzIDIxSDE1QzE1LjUzMDQgMjEgMTYuMDM5MSAyMC43ODkzIDE2LjQxNDIgMjAuNDE0MkMxNi43ODkzIDIwLjAzOTEgMTcgMTkuNTMwNCAxNyAxOVY3TTExIDFMMTcgN00xMSAxVjdIMTdNMTMgMTJINU0xMyAxNkg1TTcgOEg1IiBzdHJva2U9IiNENzk3NDUiIHN0cm9rZS13aWR0aD0iMS40IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==");
+            }
+            li.current#show-tab-audio{
+                background-image:url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEgMTZWMTBDMSA3LjYxMzA1IDEuOTQ4MjEgNS4zMjM4NyAzLjYzNjA0IDMuNjM2MDRDNS4zMjM4NyAxLjk0ODIxIDcuNjEzMDUgMSAxMCAxQzEyLjM4NjkgMSAxNC42NzYxIDEuOTQ4MjEgMTYuMzY0IDMuNjM2MDRDMTguMDUxOCA1LjMyMzg3IDE5IDcuNjEzMDUgMTkgMTBWMTZNMTkgMTdDMTkgMTcuNTMwNCAxOC43ODkzIDE4LjAzOTEgMTguNDE0MiAxOC40MTQyQzE4LjAzOTEgMTguNzg5MyAxNy41MzA0IDE5IDE3IDE5SDE2QzE1LjQ2OTYgMTkgMTQuOTYwOSAxOC43ODkzIDE0LjU4NTggMTguNDE0MkMxNC4yMTA3IDE4LjAzOTEgMTQgMTcuNTMwNCAxNCAxN1YxNEMxNCAxMy40Njk2IDE0LjIxMDcgMTIuOTYwOSAxNC41ODU4IDEyLjU4NThDMTQuOTYwOSAxMi4yMTA3IDE1LjQ2OTYgMTIgMTYgMTJIMTlWMTdaTTEgMTdDMSAxNy41MzA0IDEuMjEwNzEgMTguMDM5MSAxLjU4NTc5IDE4LjQxNDJDMS45NjA4NiAxOC43ODkzIDIuNDY5NTcgMTkgMyAxOUg0QzQuNTMwNDMgMTkgNS4wMzkxNCAxOC43ODkzIDUuNDE0MjEgMTguNDE0MkM1Ljc4OTI5IDE4LjAzOTEgNiAxNy41MzA0IDYgMTdWMTRDNiAxMy40Njk2IDUuNzg5MjkgMTIuOTYwOSA1LjQxNDIxIDEyLjU4NThDNS4wMzkxNCAxMi4yMTA3IDQuNTMwNDMgMTIgNCAxMkgxVjE3WiIgc3Ryb2tlPSIjRDc5NzQ1IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K");   
+            }
+            
+            
+
+            
+        }
+        .ld-status.ld-status-complete{
+            background-color:#D79745 !important;
+        }
+        .ld-content-actions{
+            .sfwd-mark-complete{
+                input.learndash_mark_complete_button:hover{
+                    background-color:#45A2D6 !important;
+                    border-color:#45A2D6 !important;
+                    color:#fff !important;
+                }
+                input.learndash_mark_complete_button{
+                    border-color:#45A2D6 !important;
+                    color:#45A2D6 !important;
+                }
+            }
+            .marked_as_complete{
+                background:#45A2D6 !important;
+            }
+        }
+        #tab-notes{
+            button.btn_save_note.mini{
+                background-color:#D79745 !important;
+            }
+        }
+        #tab-action-steps{
+            .action-steps-content{
+                input[type=checkbox]:checked + label{
+                    background-image:url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeD0iMSIgeT0iMSIgd2lkdGg9IjIyIiBoZWlnaHQ9IjIyIiByeD0iMSIgc3Ryb2tlPSIjRDc5NzQ1IiBzdHJva2Utd2lkdGg9IjIiLz4KPHBhdGggZD0iTTE3LjYzNjQgOEw5LjYzNjM2IDE2TDYgMTIuMzYzNiIgc3Ryb2tlPSIjRDc5NzQ1IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K");
+                }
+            }
+        }
+        #tab-audio{
+            // audio::-webkit-media-controls-play-button{
+            //     background-color:#D79745 !important;
+            //     border-radius: 100%;
+            //     color:#fff !important;
+            // }
+            // audio::-webkit-media-controls-volume-slider {
+            //     stroke: #D79745;
+            // }
+        }
+    }
+    .lms-topic-sidebar-wrapper{
+        .lms-topic-sidebar-data{
+            background: #000;
+
+            .active_sidebar_button{
+                background-color:#000 !important;
+            }
+            .course-details{
+                .lms-topic-sidebar-progress{
+                    .course-completion-rate{
+                        color:#D79745;
+                    }
+                }
+            }
+
+            .lms-lessons-list{
+                .bb-lessons-list{
+                    .lms-lesson-item{
+                        background:#000;
+
+                        &.current{
+                            .bb-lesson-title{
+                                color:#D79745;
+                            }
+
+                            .i-progress.bb-not-completed{
+                                background:#D79745;
+                            }
+                            a{
+                                background:#000 !important;
+                            }
+                        }
+                        .bb-lesson-head{
+                            .progress-circle{
+                                .i-progress.i-progress-completed{
+                                    background:#D79745 !important;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+
+            button.btn_save_note{
+                background:#D79745;
+            }
+        }
+        
+        
+        
+    }
+    
+}

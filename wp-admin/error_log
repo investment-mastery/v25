@@ -1,0 +1,405 @@
+[31-Jul-2020 06:19:25 UTC] WordPress database error Unknown column 'mc_' in 'field list' for query SELECT mc_
+[01-Aug-2020 05:16:48 UTC] PHP Warning:  Creating default object from empty value in /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-platform-pro/includes/lib/buddyboss-updater/includes/admin.php on line 396
+[01-Aug-2020 05:16:48 UTC] PHP Warning:  Creating default object from empty value in /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-platform-pro/includes/lib/buddyboss-updater/includes/admin.php on line 399
+[01-Aug-2020 06:13:20 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:13:20 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:13:20 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:13:23 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:13:23 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:13:23 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:13:35 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:13:35 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:13:35 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:13:38 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:13:38 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:13:38 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:13:53 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:13:53 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:13:53 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:13:56 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:13:56 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:13:56 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:14:01 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:14:01 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:14:01 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:14:04 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:14:04 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:14:04 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:14:08 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:14:08 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:14:08 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:14:11 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:14:11 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:14:11 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:14:16 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:14:16 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:14:16 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:14:19 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:14:19 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:14:19 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:41:02 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:41:02 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:41:02 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:41:12 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:41:12 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:41:12 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:42:05 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:42:05 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:42:05 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:42:08 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:42:08 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:42:08 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:43:39 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:43:39 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:43:39 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:43:43 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:43:43 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:43:43 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:43:50 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:43:50 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:43:50 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:43:55 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:43:55 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:43:55 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:44:12 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:44:12 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:44:12 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:44:15 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:44:15 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:44:15 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:44:17 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:44:17 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:44:17 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:44:21 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:44:21 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:44:21 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:44:42 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:44:42 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:44:42 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:44:46 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:44:46 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:44:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:45:02 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:45:02 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:45:02 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:45:05 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[01-Aug-2020 06:45:05 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[01-Aug-2020 06:45:05 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[01-Aug-2020 06:48:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/sfwd-lms/includes/ld-autoupdate.php:141) in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 6221
+[03-Aug-2020 05:23:07 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[03-Aug-2020 05:23:07 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[03-Aug-2020 05:23:07 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[03-Aug-2020 05:23:14 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[03-Aug-2020 05:23:14 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[03-Aug-2020 05:23:14 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[06-Aug-2020 05:04:33 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[06-Aug-2020 05:04:33 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[06-Aug-2020 05:04:33 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[06-Aug-2020 05:04:40 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[06-Aug-2020 05:04:40 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[06-Aug-2020 05:04:40 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[07-Aug-2020 04:56:09 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[07-Aug-2020 04:56:10 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[07-Aug-2020 04:56:10 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[07-Aug-2020 04:56:17 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[07-Aug-2020 04:56:17 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[07-Aug-2020 04:56:17 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[10-Aug-2020 12:22:13 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[10-Aug-2020 12:22:13 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[10-Aug-2020 12:22:13 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[10-Aug-2020 12:22:20 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[10-Aug-2020 12:22:20 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[10-Aug-2020 12:22:20 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[11-Aug-2020 05:46:49 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[11-Aug-2020 05:46:49 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[11-Aug-2020 05:46:49 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[11-Aug-2020 05:46:57 UTC] PHP Warning:  fopen(/home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-updater/buddyboss-updater.php): failed to open stream: No such file or directory in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5974
+[11-Aug-2020 05:46:57 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5977
+[11-Aug-2020 05:46:57 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/functions.php on line 5980
+[11-Aug-2020 07:16:41 UTC] WordPress database error Table 'webdemo_wp495.mc_gamipress_logs' doesn't exist for query ALTER TABLE mc_gamipress_logs ENGINE = InnoDB; made by require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, gamipress_process_upgrades, apply_filters('gamipress_process_upgrades'), WP_Hook->apply_filters, gamipress_187_upgrades, gamipress_process_187_upgrade
+[11-Aug-2020 07:16:41 UTC] WordPress database error Table 'webdemo_wp495.mc_gamipress_logs_meta' doesn't exist for query ALTER TABLE mc_gamipress_logs_meta ENGINE = InnoDB; made by require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, gamipress_process_upgrades, apply_filters('gamipress_process_upgrades'), WP_Hook->apply_filters, gamipress_187_upgrades, gamipress_process_187_upgrade
+[11-Aug-2020 07:16:41 UTC] WordPress database error Table 'webdemo_wp495.mc_gamipress_user_earnings' doesn't exist for query ALTER TABLE mc_gamipress_user_earnings ENGINE = InnoDB; made by require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, gamipress_process_upgrades, apply_filters('gamipress_process_upgrades'), WP_Hook->apply_filters, gamipress_187_upgrades, gamipress_process_187_upgrade
+[11-Aug-2020 07:16:41 UTC] WordPress database error Table 'webdemo_wp495.mc_gamipress_user_earnings_meta' doesn't exist for query ALTER TABLE mc_gamipress_user_earnings_meta ENGINE = InnoDB; made by require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, gamipress_process_upgrades, apply_filters('gamipress_process_upgrades'), WP_Hook->apply_filters, gamipress_187_upgrades, gamipress_process_187_upgrade
+[23-Sep-2020 17:48:39 UTC] WordPress database error Table 'webdemo_wp495.mc_memberium_sessions' doesn't exist for query SELECT `value` FROM `mc_memberium_sessions` WHERE `session_key` = 'cd454f9058d624fe37447ff6ce65a3c1'  made by do_action('toplevel_page_memberium-installer-wizard'), WP_Hook->do_action, WP_Hook->apply_filters, MemberiumInstaller->showSummaryDashboard, require_once('/plugins/memberium-install-wizard/lib/screens/starthere.php'), activate_plugin, include_once('/plugins/memberium2/memberium2.php'), require_once('/plugins/memberium2/lib/bootstrap.php'), memberium_app, m4is_ujz, session_start, m4is_d3y->m4is_zibt
+[23-Sep-2020 17:49:00 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:49:10 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:49:19 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:49:20 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:49:21 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:49:21 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:49:22 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:49:22 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:49:22 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:50:11 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:50:12 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:50:19 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:50:26 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:51:32 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:52:19 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:53:32 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:54:20 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:55:32 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:56:02 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:56:07 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:56:20 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:57:16 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:58:21 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 17:59:15 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 18:01:16 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 18:03:16 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 18:05:16 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 18:07:15 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 18:09:15 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 18:11:16 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 18:13:15 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 18:15:15 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 18:17:15 UTC] Session Error:  userId=13 sessionUserId=0
+[23-Sep-2020 18:19:19 UTC] Session Error:  userId=13 sessionUserId=0
+[24-Sep-2020 05:36:39 UTC] Session Error:  userId=1 sessionUserId=0
+[24-Sep-2020 05:42:46 UTC] Session Error:  userId=1 sessionUserId=0
+[24-Sep-2020 05:42:51 UTC] Session Error:  userId=1 sessionUserId=0
+[24-Sep-2020 05:43:15 UTC] Session Error:  userId=0 sessionUserId=1
+[24-Sep-2020 05:44:15 UTC] Session Error:  userId=0 sessionUserId=1
+[24-Sep-2020 05:45:15 UTC] Session Error:  userId=0 sessionUserId=1
+[24-Sep-2020 05:46:15 UTC] Session Error:  userId=0 sessionUserId=1
+[24-Sep-2020 05:47:15 UTC] Session Error:  userId=0 sessionUserId=1
+[24-Sep-2020 05:48:17 UTC] Session Error:  userId=0 sessionUserId=1
+[24-Sep-2020 05:49:15 UTC] Session Error:  userId=0 sessionUserId=1
+[24-Sep-2020 05:50:15 UTC] Session Error:  userId=0 sessionUserId=1
+[24-Sep-2020 05:52:15 UTC] Session Error:  userId=0 sessionUserId=1
+[24-Sep-2020 05:54:15 UTC] Session Error:  userId=0 sessionUserId=1
+[24-Sep-2020 05:56:16 UTC] Session Error:  userId=0 sessionUserId=1
+[24-Sep-2020 05:58:23 UTC] Session Error:  userId=0 sessionUserId=1
+[24-Sep-2020 05:59:15 UTC] Session Error:  userId=0 sessionUserId=1
+[24-Sep-2020 06:01:15 UTC] Session Error:  userId=0 sessionUserId=1
+[24-Sep-2020 06:03:15 UTC] Session Error:  userId=0 sessionUserId=1
+[24-Sep-2020 06:04:44 UTC] Session Error:  userId=0 sessionUserId=1
+[24-Sep-2020 06:05:44 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:42:51 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:42:55 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:42:55 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:42:55 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:42:58 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:43:00 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:43:00 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:43:55 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:44:53 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:44:54 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:44:56 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:44:57 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:44:58 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:45:00 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:45:01 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:45:10 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:45:12 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:45:13 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:46:23 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:46:56 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:46:56 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:46:58 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:46:58 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:47:02 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:47:02 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:47:13 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:47:15 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:48:23 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:48:54 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:48:56 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:48:58 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:48:58 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:49:01 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:49:01 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:49:15 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:49:17 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:49:44 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:50:00 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:50:01 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:50:58 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:50:59 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:50:59 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:51:02 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:51:03 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:51:03 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:51:12 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:51:44 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:52:01 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:52:01 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:52:58 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:52:59 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:52:59 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:53:02 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:53:03 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:53:04 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:53:14 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:53:45 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:54:01 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:54:02 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:54:45 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:54:58 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:55:00 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:55:00 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:55:03 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:55:04 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:55:04 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:55:14 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:55:46 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:56:02 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:56:45 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:56:59 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:57:00 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:57:01 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:57:04 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:57:04 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:57:05 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:57:16 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:57:45 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:58:02 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:58:45 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:58:58 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:59:00 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:59:02 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:59:03 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:59:03 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:59:05 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:59:17 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 05:59:48 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:00:04 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:00:46 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:00:58 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:01:00 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:01:05 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:01:06 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:01:06 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:01:08 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:01:18 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:01:45 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:02:44 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:02:57 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:03:00 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:03:04 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:03:04 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:03:05 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:03:06 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:03:18 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:03:45 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:04:59 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:05:00 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:05:04 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:05:06 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:05:08 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:05:20 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:05:45 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:07:00 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:07:01 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:07:04 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:07:06 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:07:07 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:07:20 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:07:45 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:09:01 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:09:02 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:09:05 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:09:07 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:09:08 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:09:20 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:09:44 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:10:45 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:11:02 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:11:03 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:11:05 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:11:08 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:11:08 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:11:20 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:11:45 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:12:45 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:13:03 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:13:04 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:13:07 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:13:09 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:13:11 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:13:21 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:13:45 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:14:45 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:15:03 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:15:04 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:15:08 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:15:10 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:15:12 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:15:22 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:16:45 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:17:04 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:17:05 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:17:10 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:17:11 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:17:12 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:17:23 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:17:27 UTC] Session Error:  userId=0 sessionUserId=1
+[25-Sep-2020 06:18:42 UTC] Session Error:  userId=0 sessionUserId=1
+[28-Sep-2020 05:32:31 UTC] Session Error:  userId=0 sessionUserId=1
+[28-Sep-2020 05:32:31 UTC] Session Error:  userId=0 sessionUserId=1
+[29-Sep-2020 07:03:02 UTC] Session Error:  userId=0 sessionUserId=1
+[29-Sep-2020 07:03:02 UTC] Session Error:  userId=0 sessionUserId=1
+[29-Sep-2020 07:05:24 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 04:54:59 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 04:55:56 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 04:56:26 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 04:56:47 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 04:57:25 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 04:57:47 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 04:58:26 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 04:58:47 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 04:59:25 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 04:59:47 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:00:26 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:00:47 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:01:26 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:01:47 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:02:25 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:02:47 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:03:25 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:03:47 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:04:25 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:04:47 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:05:25 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:05:47 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:06:25 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:06:48 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:07:25 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:08:47 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:09:26 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:10:48 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:11:26 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:25:20 UTC] Session Error:  userId=0 sessionUserId=1
+[01-Oct-2020 05:25:20 UTC] Session Error:  userId=0 sessionUserId=1
+[03-Oct-2020 05:45:07 UTC] Session Error:  userId=0 sessionUserId=1
+[06-Oct-2020 22:20:58 UTC] Session Error:  userId=0 sessionUserId=13
+[06-Oct-2020 22:21:01 UTC] Session Error:  userId=0 sessionUserId=13
+[08-Jan-2021 15:35:49 UTC] Session Error:  userId=13 sessionUserId=0
+[22-Jan-2021 11:32:29 UTC] Session Error:  userId=1 sessionUserId=0
+[27-Jan-2021 14:40:05 UTC] Session Error:  userId=1 sessionUserId=0
+[28-Jan-2021 07:44:59 UTC] Session Error:  userId=1 sessionUserId=0
+[28-Jan-2021 15:02:04 UTC] Session Error:  userId=1 sessionUserId=0
+[22-Feb-2021 15:37:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function bp_get_option() in /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-platform-pro/buddyboss-platform-pro.php:119
+Stack trace:
+#0 /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-platform-pro/buddyboss-platform-pro.php(80): BB_Platform_Pro->setup_globals()
+#1 /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-platform-pro/buddyboss-platform-pro.php(55): BB_Platform_Pro->__construct()
+#2 /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-platform-pro/buddyboss-platform-pro.php(204): BB_Platform_Pro::instance()
+#3 /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-platform-pro/buddyboss-platform-pro.php(229): bb_platform_pro()
+#4 /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/class-wp-hook.php(287): bb_platform_pro_init('')
+#5 /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes in /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-platform-pro/buddyboss-platform-pro.php on line 119
+[22-Feb-2021 15:44:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function bp_get_option() in /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-platform-pro/class-bb-platform-pro.php:119
+Stack trace:
+#0 /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-platform-pro/class-bb-platform-pro.php(80): BB_Platform_Pro->setup_globals()
+#1 /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-platform-pro/class-bb-platform-pro.php(53): BB_Platform_Pro->__construct()
+#2 /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-platform-pro/buddyboss-platform-pro.php(36): BB_Platform_Pro::instance()
+#3 /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-platform-pro/buddyboss-platform-pro.php(70): bb_platform_pro()
+#4 /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/class-wp-hook.php(287): bb_platform_pro_init('')
+#5 /home/webdemo/public_html/membershipclub.webdemo.link/wp-includes/clas in /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/plugins/buddyboss-platform-pro/class-bb-platform-pro.php on line 119
+[23-Mar-2021 18:02:47 UTC] WordPress database error Table 'webdemo_wp495.mc_wp_pro_quiz_master' doesn't exist for query SELECT * FROM mc_wp_pro_quiz_master WHERE id = 1; made by do_action('wp_ajax_duplicate_quiz'), WP_Hook->do_action, WP_Hook->apply_filters, LdccCourse\LdccCourse::duplicateQuiz
+[23-Mar-2021 18:02:47 UTC] WordPress database error Table 'webdemo_wp495.mc_wp_pro_quiz_master' doesn't exist for query SHOW FULL COLUMNS FROM `mc_wp_pro_quiz_master` made by do_action('wp_ajax_duplicate_quiz'), WP_Hook->do_action, WP_Hook->apply_filters, LdccCourse\LdccCourse::duplicateQuiz
+[23-Mar-2021 20:16:01 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/themes/buddyboss-theme-child/functions.php on line 84
+[23-Mar-2021 20:16:32 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/themes/buddyboss-theme-child/functions.php on line 84
+[23-Mar-2021 20:17:15 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/themes/buddyboss-theme-child/functions.php on line 84
+[23-Mar-2021 20:17:16 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/themes/buddyboss-theme-child/functions.php on line 84
+[23-Mar-2021 20:17:33 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/themes/buddyboss-theme-child/functions.php on line 84
+[23-Mar-2021 22:03:06 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/webdemo/public_html/membershipclub.webdemo.link/wp-content/themes/buddyboss-theme-child/functions.php on line 79

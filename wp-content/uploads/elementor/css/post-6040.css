@@ -1,0 +1,18 @@
+.elementor-6040 .elementor-element.elementor-element-2b1940b{margin-top:-23px;margin-bottom:60px;}.elementor-6040 .elementor-element.elementor-element-96580a0 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-6040 .elementor-element.elementor-element-3ab29d7 .elementor-heading-title{color:var( --e-global-color-f469a7d );font-family:"Montserrat", Sans-serif;font-size:26px;font-weight:700;}.elementor-6040 .elementor-element.elementor-element-f03c14b .elementor-icon-list-icon i{color:#37368E;transition:color 0.3s;}.elementor-6040 .elementor-element.elementor-element-f03c14b .elementor-icon-list-icon svg{fill:#37368E;transition:fill 0.3s;}.elementor-6040 .elementor-element.elementor-element-f03c14b{--e-icon-list-icon-size:25px;--icon-vertical-offset:0px;}.elementor-6040 .elementor-element.elementor-element-f03c14b .elementor-icon-list-item > .elementor-icon-list-text, .elementor-6040 .elementor-element.elementor-element-f03c14b .elementor-icon-list-item > a{font-family:"Source Sans Pro", Sans-serif;font-size:18px;font-weight:600;}.elementor-6040 .elementor-element.elementor-element-f03c14b .elementor-icon-list-text{color:#1F3C61;transition:color 0.3s;}.elementor-6040 .elementor-element.elementor-element-f03c14b > .elementor-widget-container{margin:-2px 0px 0px 0px;}:root{--page-title-display:none;}/* Start custom CSS for shortcode, class: .elementor-element-c52421d */@media only screen and (max-width: 767px) {
+.tribe-events .tribe-events-header {
+    display: block !important;
+}
+.tribe-events button.tribe-events-c-top-bar__datepicker-button {
+    margin: 0 auto;
+}
+.tribe-events .tribe-events-c-top-bar__datepicker-container .dropdown-menu {
+    left: 43% !important;
+    transform: translate(-50%, 0px);
+}
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-b130c1c */.tribe-events-l-container{
+    padding:0 !important;
+}
+.calendar_wrapper > div{
+    padding:0 !important;
+}/* End custom CSS */

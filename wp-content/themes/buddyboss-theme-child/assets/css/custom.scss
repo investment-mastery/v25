@@ -1,0 +1,2254 @@
+@import url("https://use.typekit.net/cvq0emj.css");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+$large: "only screen and (max-width : 1200px)";
+$medium: "only screen and (max-width : 1024px)";
+$tabletlarge: "only screen and (max-width : 901px)";
+$tablet: "only screen and (max-width : 768px)";
+$mobilelarge: "only screen and (max-width : 601px)";
+$mobile: "only screen and (max-width : 480px)";
+$mobilesmall: "only screen and (max-width : 375px)";
+$small: "only screen and (max-width : 320px)";
+
+
+/***
+ * CLUB BUTTONS 
+ */
+$btn-crypto: #48A9F5;
+$btn-stocks: #48A9F5;
+$btn-success: #42B99F;
+$btn-gold: #D79745;
+$btn-crypto-hover: #2b8ad3;
+$btn-stocks-hover: #2b8ad3;
+$btn-success-hover: #3BA68F;
+$btn-gold-hover: #C1802D;
+
+
+/***
+ * FRONT PAGE - CLUB SELECTION
+ */
+
+#clubs-container  {
+   
+    visibility: hidden;
+
+    .elementor-container:first-child {
+        display: flex;
+        justify-content: center;
+    }
+}
+#fp-subheading {
+    #fp-loader {
+        margin: 30px auto;
+        display: block;
+    }
+}
+
+
+/***
+ * MINI TOUR INTRO
+ */
+.tour_step_title {
+    font-family: 'Montserrat' !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1F3C61!important;
+    margin-bottom: 16px;
+} 
+.tour_step_desc {
+    font-family: 'Source Sans Pro' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6F7A88 !important;
+    margin-bottom: 16px;
+} 
+.dpintro-tooltip {
+    padding: 33px 30px !important;   
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+@media only screen and (min-width : 601px) {               
+    .dpintro-tooltip#dpintro-tooltip-step-1, 
+    .dpintro-tooltip#dpintro-tooltip-step-2, 
+    .dpintro-tooltip#dpintro-tooltip-step-3, 
+    .dpintro-tooltip#dpintro-tooltip-step-4, 
+    .dpintro-tooltip#dpintro-tooltip-step-5, 
+    .dpintro-tooltip#dpintro-tooltip-step-6 {
+        top: 0 !important;   
+        width: 560px!important;   
+    }  
+}  
+.dpintro-tooltip-buttons {
+    text-align: left;
+} 
+.dpintro-button {
+    background-color: #48A9F5;
+    border-radius: 4px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF !important;
+    border-color: #48A9F5;
+
+    &:hover {
+        color: #FFFFFF !important;
+        background-color: #48A9F5;
+        opacity: .75 !important;
+    }
+}
+.dpintro-progress {
+    height: 6px!important;
+    margin: 10px 0 16px 0!important;
+    background-color: #E1E1E1!important;
+}
+.dpintro-tooltip .dpintro-tooltip-text {
+    white-space: normal !important;
+}
+.dpintro-progress-bar {
+    background-color: #00C47D!important;
+} 
+#dpintro-tooltip-step-1, #dpintro-tooltip-step-2, #dpintro-tooltip-step-3 {
+    .dpintro-button-skip {
+        display: none !important;
+    }
+}
+.dpintro-button-skip {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #A6B0BB!important;
+    background-color: #FFFFFF!important;
+    border: none!important;
+
+    &:hover {
+        color: #A6B0BB!important;
+    }
+}
+.dpintro-arrow.left, .dpintro-arrow.right {
+    top: 30px !important;
+}
+.dpintro-highlight {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+/***
+ * BUDDYPANNEL
+ */
+.buddypanel ul.buddypanel-menu li a span:not(.count) {
+    display: block;
+    min-width: 0;
+    line-height: 1.2;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: inherit;
+}
+#menu-item-5971 {
+   margin-bottom: 20px;
+}
+
+/***
+ * DASHBOARD PAGE TEMPLATE
+ */
+.page-template-page-template-dashboard {
+    .banner {
+        width: 100%; 
+        margin: 0;
+        border-radius: 8px;   
+        padding: 65px 51px;
+        &--crypto {
+            background: #1C355E url("../img/banner-crypto.png") no-repeat center center/cover !important;                 
+        }
+        &--stocks {
+            background: #1C355E url("../img/banner-trading.png") no-repeat center center/cover !important;                 
+        }
+        &--success {
+            background: #1C355E url("../img/banner-success.png") no-repeat center center/cover !important;                 
+        }
+        &--gold {
+            background: #1C355E url("../img/banner-gold.png") no-repeat center center/cover !important;                 
+        }
+
+        @media #{$mobilelarge} {               
+            padding: 20px; 
+        }  
+
+        &__content {
+            width: 60%;       
+            display: flex;
+            flex-direction: column;      
+            
+            @media #{$medium} {
+                width: 100%;   
+            }          
+        }
+        &__heading {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 44px;
+            text-transform: capitalize;
+            color: white;
+            margin-bottom: 23px;
+
+            &.skeleton-loader {
+                width: 100%;
+                height: 24px;
+            }
+
+        }
+        &__desc {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 28px;
+            color: white;
+            margin-bottom: 23px;
+            width: 90%;
+
+            @media #{$medium} {
+                width: 100%;   
+            }      
+
+            &.skeleton-loader {
+                width: 100%;
+                height: 84px;
+            }
+        }
+        &__btn {
+            padding: 16px 84px;
+            font-family: "Source Sans Pro";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0.04em;
+            border-radius: 4px;
+            width: fit-content;  
+            
+            @media #{$medium} {
+                width: 100%;   
+                text-align: center;
+            }   
+
+            &--crypto {
+                color: white;
+                background: $btn-crypto;  
+
+                &:hover {
+                    color: white;
+                    background: $btn-crypto-hover; 
+                }              
+            } 
+            &--stocks {
+                color: white;
+                background: $btn-stocks;    
+                
+                &:hover {
+                    color: white;
+                    background: $btn-stocks-hover; 
+                }    
+            } 
+            &--success {
+                color: white;
+                background: $btn-success;  
+                
+                &:hover {
+                    color: white;
+                    background: $btn-success-hover; 
+                }      
+            } 
+            &--gold {
+                color: white;
+                background: $btn-gold;     
+                
+                &:hover {
+                    color: white;
+                    background: $btn-gold-hover; 
+                }   
+            }             
+            &.skeleton-loader {
+                width: 260px;
+                height: 56px; 
+                background: white;
+
+                @media #{$medium} {
+                    width: 100%;  
+                }    
+            }
+        }    
+    }
+    #featured_courses {
+         /** TODO: success and gold button background and hovers are also being handled on their corresponding css file. Will unify it later **/              
+
+        .recording_box {
+            
+            &--featured-main {
+                background: #FFFFFF;
+                border: 1px solid #E1E1E1;
+                box-sizing: border-box;
+                border-radius: 4px; 
+            }
+            &__accessbtn {
+                &--crypto {
+                    color: white;
+                    background: $btn-crypto;  
+    
+                    &:hover {
+                        color: white;
+                        background: $btn-crypto-hover; 
+                    }              
+                } 
+                &--stocks {
+                    color: white;
+                    background: $btn-stocks;    
+                    
+                    &:hover {
+                        color: white;
+                        background: $btn-stocks-hover; 
+                    }    
+                } 
+                &--success {
+                    color: white;
+                    background: $btn-success;  
+                    
+                    &:hover {
+                        color: white;
+                        background: $btn-success-hover; 
+                    }      
+                } 
+                &--gold {
+                    color: white;
+                    background: $btn-gold;     
+                    
+                    &:hover {
+                        color: white;
+                        background: $btn-gold-hover; 
+                    }   
+                } 
+            }            
+        }
+    }
+    .coaching-events {
+        /** note: css buttons for coaching events are the same for each club using GREEN button **/  
+        &__join {
+            
+            &--crypto {                     
+                &:hover {                              
+                    background: #00c37d !important;    
+                    border-radius: 4px;
+                    a {
+                        color: white !important;    
+                    }
+                }                   
+            } 
+            &--stocks {               
+                &:hover {                              
+                    background: #00c37d !important;    
+                    border-radius: 4px;
+                    a {
+                        color: white !important;    
+                    }
+                }                
+            }  
+            &--success {               
+                &:hover {                              
+                    background: #00c37d !important;    
+                    border-radius: 4px;
+                    a {
+                        color: white !important;    
+                    }
+                }                
+            }  
+            &--gold {               
+                &:hover {                              
+                    background: #00c37d !important;    
+                    border-radius: 4px;
+                    a {
+                        color: white !important;    
+                    }
+                }                
+            }  
+        }
+
+        .membersdiv div img {
+            border-radius: 50% !important;  
+        }
+    }
+    .modal {
+        display: none; 
+        position: fixed; 
+        z-index: 999; 
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%; 
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0,0.8); 
+
+        &__content {
+            background-color: white;
+            margin: auto; 
+            padding: 60px 80px 68px 80px;
+            border-radius: 4px;
+            width: 100%; 
+            max-width: 800px;
+            height: 700px;
+            text-align: center;
+
+            @media #{$mobilelarge} {
+                margin: auto 20px;
+                padding: 60px 20px;
+                height: fit-content;  
+            }  
+            @media #{$tablet} {               
+                margin: auto 20px; 
+            }  
+        }
+        &__heading {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 24px;
+            color: #1C355E;
+            margin: 0 0 24px 0;
+
+            @media #{$mobilelarge} {               
+                font-size: 22px;
+            }  
+        }
+        &__subheading {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 28px;
+            text-align: center;
+            color: #6F7A88;
+            margin: 0 0 40px 0;
+        }
+        &__video {
+            width: 100%;
+            height: 100%;
+            max-height: 360px;
+            background-color: black;
+            margin: 0 0 40px 0;
+
+            @media #{$mobilelarge} {               
+                height: fit-content;  
+            }  
+        }
+        &__btn {
+            font-family: "Source Sans Pro";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0.04em;
+            padding: 16px 32px;
+            border-radius: 4px;
+
+            @media #{$mobilelarge} {
+                width: 100%;   
+                text-align: center;
+                display: block;
+            }               
+            
+            &--crypto {
+                color: white;
+                background: $btn-crypto;  
+
+                &:hover {
+                    color: white;
+                    background: $btn-crypto-hover; 
+                }              
+            } 
+            &--stocks {
+                color: white;
+                background: $btn-stocks;    
+                
+                &:hover {
+                    color: white;
+                    background: $btn-stocks-hover; 
+                }    
+            } 
+            &--success {
+                color: white;
+                background: $btn-success;  
+                
+                &:hover {
+                    color: white;
+                    background: $btn-success-hover; 
+                }      
+            } 
+            &--gold {
+                color: white;
+                background: $btn-gold;     
+                
+                &:hover {
+                    color: white;
+                    background: $btn-gold-hover; 
+                }   
+            }             
+        }    
+        &__close {
+            color: #6F7A88;
+            float: right;
+            font-size: 26px;           
+            position: relative;
+            top: -50px;
+            right: -60px;
+
+            @media #{$mobilelarge} {               
+                right: -5px;
+            }  
+
+            &:hover,
+            &:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;               
+            }
+        }            
+    }
+    .cancel-reg-modal {
+        &__yes-btn { 
+            &--crypto {
+                color: white;
+                background: $btn-crypto;  
+
+                &:hover {
+                    color: white;
+                    background: $btn-crypto-hover; 
+                }              
+            } 
+            &--stocks {
+                color: white;
+                background: $btn-stocks;    
+                
+                &:hover {
+                    color: white;
+                    background: $btn-stocks-hover; 
+                }    
+            } 
+            &--success {
+                color: white;
+                background: $btn-success;  
+                
+                &:hover {
+                    color: white;
+                    background: $btn-success-hover; 
+                }      
+            } 
+            &--gold {
+                color: white;
+                background: $btn-gold;     
+                
+                &:hover {
+                    color: white;
+                    background: $btn-gold-hover; 
+                }   
+            }
+        }
+        &__no-btn {
+            
+            &--crypto {
+                color: $btn-crypto;  
+                border: 1px solid $btn-crypto;              
+
+                &:hover {
+                    color: white !important; 
+                    background: $btn-crypto-hover !important; 
+                }              
+            } 
+            &--stocks {
+                color: $btn-stocks;   
+                border: 1px solid $btn-stocks;                   
+                
+                &:hover {
+                    color: white !important; 
+                    background: $btn-stocks-hover !important;  
+                }    
+            } 
+            &--success {
+                color: $btn-success;  
+                border: 1px solid $btn-success;      
+                
+                &:hover {
+                    color: white !important; 
+                    background: $btn-success-hover !important;  
+                }      
+            } 
+            &--gold {
+                color:  $btn-gold;   
+                border: 1px solid $btn-gold;                    
+                
+                &:hover {
+                    color: white !important; 
+                    background: $btn-gold-hover !important; 
+                }   
+            }
+        }
+    }
+    .add-to-calendar__btn {
+
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        padding: 16px 32px;
+        border-radius: 4px;
+
+
+        &--crypto {
+            color: white;
+            background: $btn-crypto;  
+
+            &:hover {
+                color: white;
+                background: $btn-crypto-hover; 
+            }              
+        } 
+        &--stocks {
+            color: white;
+            background: $btn-stocks;    
+            
+            &:hover {
+                color: white;
+                background: $btn-stocks-hover; 
+            }    
+        } 
+        &--success {
+            color: white;
+            background: $btn-success;  
+            
+            &:hover {
+                color: white;
+                background: $btn-success-hover; 
+            }      
+        } 
+        &--gold {
+            color: white;
+            background: $btn-gold;     
+            
+            &:hover {
+                color: white;
+                background: $btn-gold-hover; 
+            }   
+        }     
+    }    
+    .daily_tracker {
+        padding-bottom: 0px;
+
+        #calendar {
+            padding: 0 25px 32px 25px;
+            float: left;
+            width: 100%;
+            display: none;
+
+            table {
+                margin: 0;
+                border: 0;
+
+                td, th {
+                    border: 0;
+                }
+                th {
+                    font-family: "sofia-pro", sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-transform: capitalize;
+                    text-align: center;
+                    color: #a7afb9;
+
+                    a {
+                        color: #a7afb9;
+                    }
+                    a.fc-daygrid-day-number {
+                        font-family: "sofia-pro", sans-serif;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #2e425a;
+                        padding: 10px 4px;
+                    }
+                }
+            }
+            .fc-daygrid-day-events {
+                position: absolute;
+                margin: 0;
+                min-height: 1px;
+                top: calc(50% + 1px);             
+                transform: translateY(-50%);
+
+                a {
+                    z-index: -1;
+                    background: #00C37D;
+                    border: 0;
+                    height: 28px;
+                    width: 28px;
+                    margin: 0 auto;
+                    border-radius: 50%;
+                }
+            }
+            .fc-daygrid-more-link {
+                cursor: pointer;
+                text-indent: -9999999px;
+                float: left;
+                width: 28px;
+                height: 28px;
+                background: #ec6b03;
+                border-radius: 50%;
+                margin: 0 auto;
+                left: 49%;               
+                transform: translateX(-50%);
+                top: -1px;
+            }
+            tr td.active-streak:last-child::after {
+                display: none;
+            }
+            .fc-day-today {
+                background-color: inherit !important;
+            }
+            .fc-day-today.active-streak .fc-daygrid-day-number {
+                background: 0;
+                top: 0;
+            }
+            .fc-day-today .fc-daygrid-day-number {
+                width: 28px;
+                height: 28px;
+                background: #3da0dd;
+                color: #fff;
+                border-radius: 50%;              
+                display: flex;               
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                top: -2px;
+            }
+            .active-streak {
+                position: relative;
+            }
+            .active-streak.last-streak::after {
+                display: none;
+            }
+            .active-streak.fc-daypast-nostreak::before {
+                content: "" !important;
+                background: none !important;
+                display: none !important;
+            }
+            .active-streak::after {
+                content: "";
+                width: 50%;
+                height: 4px;
+                background: #00C37D;
+                position: absolute;
+                top: 50%;
+                right: 0;               
+                transform: translateY(-50%);
+            }
+            .active-streak ~ .active-streak::before {
+                content: "";
+                width: 50%;
+                height: 4px;
+                background: #00C37D;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+            }
+            .active-streak .fc-daygrid-day-top a {
+                color: #fff;
+            }
+            .active-streak.very-last .fc-daygrid-day-events a::before {
+                width: 6px;
+                height: 6px;
+                display: block;
+                position: absolute;
+                background: #0071ca;
+                border-radius: 100%;
+                left: 50%;               
+                transform: translateX(-50%);
+                top: -9px;
+            }
+            .fc-day-past:not(.active-streak) + .active-streak::before {
+                display: none !important;
+            }
+            .fc-daygrid-day-top {
+                justify-content: center;
+            }
+            .fc-daygrid-day-frame {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .fc-scroller {
+                height: auto !important;
+                overflow-y: auto;
+            }
+            .fc-toolbar-chunk .fc-button {
+                padding: 0;
+                background: 0;
+                border: 0;
+                display: flex;
+                align-items: center;
+                box-shadow: none;
+            }
+            .fc-toolbar-chunk .fc-icon {
+                color: #324053;
+            }
+            .fc-toolbar-title {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                color: #324053;
+            }
+        }	
+        .week-view .week {
+            display: flex;	
+            align-items: center;
+            justify-content: space-around;
+            padding: 0px 20px 32px;
+        }
+        hr {
+            margin: 50px 0px 50px 0px;	
+        }
+        .btn-viewcalendar {
+            width: 100%;
+            font-family: "sofia-pro", sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 30px;
+            text-align: center;
+            color: #3da0dd;
+            background: #fff;
+            box-shadow: none;
+            text-transform: capitalize;
+            border-radius: 0 0 16px 16px !important;
+            display: none;
+        }
+        #stop_session {
+            display: none;
+            justify-content: center;
+            align-items: center;	
+        }
+        .disable-li{
+            pointer-events:none; 
+        }
+        .show{
+            display: block!important;
+        }
+    }
+
+    #timer_tracker #completed{
+        background-color: #00C47D;	
+    }
+    input.input_timer {
+        margin-top: -10px;	
+        font-size: 60px;
+        color: #1C355E;
+        font-weight: 600;
+        width: 65px;
+        min-height: 85px;
+        padding: 0px 2px 0px 2px;
+        background: none;
+        border: none;
+    }
+    #starttracker {
+        display: none;
+    }
+    .tracker-buttons {
+        display: none;
+
+        /** TODO: success and gold button background and hovers are also being handled on their corresponding css file. Will unify it later **/   
+
+        &__accessbtn {
+            &--crypto {
+                color: white;
+                background: $btn-crypto;  
+
+                &:hover {
+                    color: white !important; 
+                    background: $btn-crypto-hover !important; 
+                }              
+            } 
+            &--stocks {
+                color: white;
+                background: $btn-stocks;    
+                
+                &:hover {
+                    color: white !important; 
+                    background: $btn-stocks-hover !important; 
+                }    
+            } 
+            &--success {
+                color: white;
+                background: $btn-success;  
+                
+                &:hover {
+                    color: white !important; 
+                    background: $btn-success-hover !important; 
+                }      
+            } 
+            &--gold {
+                color: white;
+                background: $btn-gold;     
+                
+                &:hover {
+                    color: white !important; 
+                    background: $btn-gold-hover !important;  
+                }   
+            }             
+        } 
+        #resume:hover {
+            color: white !important;      
+        }         
+    }
+    input.input_timer::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+          color: #1C355E;
+    }
+    input.input_timer::-moz-placeholder { /* Firefox 19+ */
+          color: #1C355E;
+    }
+    input.input_timer:-ms-input-placeholder { /* IE 10+ */
+          color: #1C355E;
+    }
+    input.input_timer:-moz-placeholder { /* Firefox 18- */
+          color: #1C355E;
+    }  
+    .week-view .user-weekdays .day {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;	
+    }
+    .week-view .user-weekdays .day > svg {
+        margin: 8px 3px 10px;
+    }
+
+    a.accessbtn {
+        padding: 16px 0 16px 0;
+    }
+    .recording_content h3 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 28px;
+        text-transform: capitalize;
+        color: #1F3C61;
+    }
+    .blue_box {
+        height: 70px;
+        padding: 21px 30px;
+    }	
+    .leaderboard {
+        margin-top: 35px;
+    }
+    .leaderboard-avatar {
+        border: 6px solid #FFFFFF; 
+        box-sizing: border-box; 
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+    }
+    .achievements_content {
+        margin-left: 20px;
+        width: 324px;
+    }
+    .upcomgwebnianes_box{
+        width:100%
+    }    
+    #content {
+        visibility: hidden;
+    }
+} 
+
+
+/***
+ * COACHING PAGE TEMPLATE
+ * note: success and gold button background and hovers are being handled on their corresponding css file 
+ */
+.page-template-page-template-coaching {
+
+    .upcoming-webinars {
+
+        .register_btn {     
+            &__join {
+            
+                &--crypto {                     
+                    &:hover {  
+                        color: white !important;                               
+                        background: #00c37d !important;    
+                        border-radius: 4px;                        
+                    }                   
+                } 
+                &--stocks {               
+                    &:hover { 
+                        color: white !important;                              
+                        background: #00c37d !important;    
+                        border-radius: 4px;
+                    }                
+                }  
+                &--success {               
+                    &:hover { 
+                        color: white !important;                              
+                        background: #00c37d !important;    
+                        border-radius: 4px;
+                    }                
+                }  
+                &--gold {               
+                    &:hover { 
+                        color: white !important;                              
+                        background: #00c37d !important;    
+                        border-radius: 4px;
+                    }                
+                }  
+            }                          
+        }
+    }    
+    .coaching-modal {
+
+        &__btn, &__yes-btn {
+            &--crypto {
+                color: white;
+                background: $btn-crypto;  
+
+                &:hover {
+                    color: white;
+                    background: $btn-crypto-hover; 
+                }              
+            } 
+            &--stocks {
+                color: white;
+                background: $btn-stocks;    
+                
+                &:hover {
+                    color: white;
+                    background: $btn-stocks-hover; 
+                }    
+            } 
+            &--success {
+                color: white;
+                background: $btn-success;  
+                
+                &:hover {
+                    color: white;
+                    background: $btn-success-hover; 
+                }      
+            } 
+            &--gold {
+                color: white;
+                background: $btn-gold;     
+                
+                &:hover {
+                    color: white;
+                    background: $btn-gold-hover; 
+                }   
+            }
+        }
+        &__no-btn {
+            
+            &--crypto {
+                color: $btn-crypto;  
+                border: 1px solid $btn-crypto;              
+
+                &:hover {
+                    color: white !important; 
+                    background: $btn-crypto-hover !important; 
+                }              
+            } 
+            &--stocks {
+                color: $btn-stocks;   
+                border: 1px solid $btn-stocks;                   
+                
+                &:hover {
+                    color: white !important; 
+                    background: $btn-stocks-hover !important;  
+                }    
+            } 
+            &--success {
+                color: $btn-success;  
+                border: 1px solid $btn-success;      
+                
+                &:hover {
+                    color: white !important; 
+                    background: $btn-success-hover !important;  
+                }      
+            } 
+            &--gold {
+                color:  $btn-gold;   
+                border: 1px solid $btn-gold;                    
+                
+                &:hover {
+                    color: white !important; 
+                    background: $btn-gold-hover !important; 
+                }   
+            }
+        }
+    }
+}
+
+
+/***
+ * WEBINARS PAGE TEMPLATE
+ * note: success and gold button background and hovers are being handled on their corresponding css file 
+ */
+.page-template-page-template-webinar {
+
+    ._recording_image {
+        width: 100%;
+        height: 242px;
+
+        img.recording_img {
+            width: 100%;
+            height: 242px;
+            object-fit: cover;
+        }
+    }
+
+    .upcoming-webinar {
+        &__join {
+            
+            &--crypto {        
+                a {
+                    color: #00c37d !important;
+                    border-color: #00c37d !important;   
+                    border-radius: 4px !important;    
+                }             
+                &:hover {                              
+                    background: #00c37d !important;    
+                    border-radius: 4px !important;    
+                    a {
+                        border-color: #00c37d !important;  
+                        color: white !important;    
+                    }
+                }                   
+            } 
+            &--stocks {        
+                a {
+                    color: #00c37d !important;
+                    border-color: #00c37d !important;  
+                    border-radius: 4px !important;    
+                }       
+                &:hover {                              
+                    background: #00c37d !important;  
+                    border-radius: 4px !important;    
+                    a {                      
+                        border-color: #00c37d !important;  
+                        color: white !important;    
+                    }
+                }                
+            } 
+            &--success {   
+                a {
+                    color: #00c37d !important;
+                    border-color: #00c37d !important;  
+                    border-radius: 4px !important;    
+                }            
+                &:hover {                              
+                    background: #00c37d !important;      
+                    border-radius: 4px !important;    
+                    a {
+                        border-color: #00c37d !important;  
+                        color: white !important;    
+                    }
+                }                
+            } 
+            &--gold {        
+                a {
+                    color: #00c37d !important;
+                    border-color: #00c37d !important;  
+                    border-radius: 4px !important;    
+                }       
+                &:hover {                              
+                    background: #00c37d !important;   
+                    border-radius: 4px !important;    
+                    a {                       
+                        border-color: #00c37d !important;  
+                        color: white !important;    
+                    }
+                }                
+            } 
+        }
+        &__joined {
+            
+            &--crypto {        
+                a {
+                    color: white !important;
+                    border-color: #00c37d !important;   
+                    border-radius: 4px !important;    
+                }             
+                &:hover {                              
+                    background: #00c37d !important;      
+                    border-radius: 4px !important;    
+                    a {                       
+                        border-color: #3BA68F !important;  
+                        color: white !important;    
+                    }
+                }                   
+            } 
+            &--stocks {        
+                a {
+                    color: white !important;
+                    border-color: #00c37d !important;  
+                    border-radius: 4px !important;    
+                }             
+                &:hover {                              
+                    background: #00c37d !important;    
+                    border-radius: 4px !important;    
+                    a {
+                        border-color: #00c37d !important;  
+                        color: white !important;    
+                    }
+                }             
+            } 
+            &--success {   
+                a {
+                    color: white !important;
+                    border-color: #00c37d !important;   
+                    border-radius: 4px !important;    
+                }             
+                &:hover {                              
+                    background: #00c37d !important;       
+                    border-radius: 4px !important;    
+                    a {
+                        border-color: #00c37d !important;  
+                        color: white !important;    
+                    }
+                }             
+            } 
+            &--gold {        
+                a {
+                    color: white !important;
+                    border-color: #00c37d !important;   
+                    border-radius: 4px !important;    
+                }             
+                &:hover {                              
+                    background: #00c37d !important;    
+                    border-radius: 4px !important;    
+                    a {
+                        border-color: #00c37d !important;  
+                        color: white !important;    
+                    }
+                }            
+            } 
+        }
+    }
+    .success-modal {        
+
+        &__btn {
+            &--crypto {
+                color: white;
+                background: $btn-crypto;  
+                border-color: $btn-crypto-hover; 
+
+                &:hover {
+                    color: white;
+                    background: $btn-crypto-hover; 
+                }              
+            } 
+            &--stocks {
+                color: white;
+                background: $btn-stocks;   
+                border-color: $btn-stocks-hover;  
+                
+                &:hover {
+                    color: white;
+                    background: $btn-stocks-hover; 
+                }    
+            } 
+            &--success {
+                color: white;
+                background: $btn-success;  
+                border-color: $btn-success-hover; 
+                
+                &:hover {
+                    color: white;
+                    background: $btn-success-hover; 
+                }      
+            } 
+            &--gold {
+                color: white;
+                background: $btn-gold;   
+                border-color: $btn-gold-hover;   
+                
+                &:hover {
+                    color: white;
+                    background: $btn-gold-hover; 
+                }   
+            }
+        }
+    }
+    .cancel-reg-modal {     
+
+        &__yes-btn { 
+            &--crypto {
+                color: white;
+                background: $btn-crypto;  
+                border: 1px solid $btn-crypto; 
+
+                &:hover {
+                    color: white;
+                    background: $btn-crypto-hover; 
+                }              
+            } 
+            &--stocks {
+                color: white;
+                background: $btn-stocks;   
+                border: 1px solid $btn-stocks;  
+                
+                &:hover {
+                    color: white;
+                    background: $btn-stocks-hover; 
+                }    
+            } 
+            &--success {
+                color: white;
+                background: $btn-success;  
+                border: 1px solid $btn-success;  
+                
+                &:hover {
+                    color: white;
+                    background: $btn-success-hover; 
+                }      
+            } 
+            &--gold {
+                color: white;
+                background: $btn-gold;    
+                border: 1px solid $btn-gold;   
+                
+                &:hover {
+                    color: white;
+                    background: $btn-gold-hover; 
+                }   
+            }
+        }
+        &__no-btn {
+            
+            &--crypto {
+                color: $btn-crypto !important;     
+                border: 1px solid $btn-crypto !important;              
+
+                &:hover {
+                    color: white !important; 
+                    background: $btn-crypto-hover !important; 
+                }              
+            } 
+            &--stocks {
+                color: $btn-stocks !important;   
+                border: 1px solid $btn-stocks !important;                    
+                
+                &:hover {
+                    color: white !important; 
+                    background: $btn-stocks-hover !important;  
+                }    
+            } 
+            &--success {
+                color: $btn-success !important;   
+                border: 1px solid $btn-success !important;     
+                
+                &:hover {
+                    color: white !important; 
+                    background: $btn-success-hover !important;  
+                }      
+            } 
+            &--gold {
+                color:  $btn-gold !important;     
+                border: 1px solid $btn-gold !important;                     
+                
+                &:hover {
+                    color: white !important; 
+                    background: $btn-gold-hover !important; 
+                }   
+            }
+        }
+    }
+}
+
+
+/***
+ * TOOLS PAGE TEMPLATE
+ */
+.page-template-page-template-tools {
+
+    .container {
+        max-width: 1140px;
+    }    
+    #main {        
+        padding: 0;
+        margin: 0;
+    }
+    .entry-header {
+        margin-top: 60px;
+        margin-bottom: 104px;
+    } 
+
+    .club-tools {
+        width: 100%;
+        margin: 0 auto 60px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 60px;       
+
+        @media #{$large} {
+            grid-gap: 20px;              
+        }  
+        @media #{$tablet} {
+            grid-template-columns: 1fr;
+            grid-gap: 20px;  
+        }    
+
+        .card {
+            width: 100%;
+            height: auto;
+            margin-bottom: 60px;
+            
+            &__body {
+                border: 1px solid #E1E1E1;
+                box-sizing: border-box;
+                border-radius: 4px;
+                background-color: white;
+                height: calc(100% - 48px);
+                display: flex;
+                flex-direction: column;
+            }
+            &__video {
+                width: 100%;
+                height: 338px;
+                margin-bottom: 30px;
+                position: relative;
+                cursor: pointer;
+                background: #ededed;
+
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 338px;
+                }
+                .play_icon {                
+                    position: absolute;
+                    left: calc(50% - 35px);
+                    top: calc(50% - 35px);                            
+                }                
+            }
+            &__circle {
+                &--crypto {                        
+                    fill: $btn-crypto;               
+                } 
+                &--stocks, &--trading {                        
+                    fill: $btn-crypto;              
+                } 
+                &--success {                       
+                    fill: $btn-success;                 
+                } 
+                &--gold {                        
+                    fill: $btn-gold;                  
+                } 
+            }
+            .group {
+                width: 100%;
+                height: auto;
+            }
+            &__content {
+                padding: 0px 30px 48px 30px;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            &__heading {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 28px;
+                text-transform: capitalize;
+                color: #1F3C61;
+                margin-bottom: 16px;
+                
+                &.skeleton-loader {
+                    width: 100%;
+                    height: 34px;
+                }    
+            }
+            &__desc {
+                font-family: 'Source Sans Pro';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 28px;
+                text-transform: capitalize;
+                color: #6F7A88;
+                margin-bottom: 24px;
+
+                &.skeleton-loader {
+                    width: 100%;
+                    height: 34px;
+                }    
+            }
+            &__btn {
+                padding: 12px 26px;               
+                text-align: center;
+                background: #48A9F5;
+                border-radius: 4px;   
+                font-family: 'Source Sans Pro';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 24px;
+                letter-spacing: 0.04em;
+                color: #FFFFFF;   
+                width: fit-content;
+
+                &--crypto {
+                    color: white;
+                    background: $btn-crypto;  
+    
+                    &:hover {
+                        color: white;
+                        background: $btn-crypto-hover; 
+                    }              
+                } 
+                &--stocks, &--trading { 
+                    color: white;
+                    background: $btn-stocks;    
+                    
+                    &:hover {
+                        color: white;
+                        background: $btn-stocks-hover; 
+                    }    
+                } 
+                &--success {
+                    color: white;
+                    background: $btn-success;  
+                    
+                    &:hover {
+                        color: white;
+                        background: $btn-success-hover; 
+                    }      
+                } 
+                &--gold {
+                    color: white;
+                    background: $btn-gold;     
+                    
+                    &:hover {
+                        color: white;
+                        background: $btn-gold-hover; 
+                    }   
+                } 
+                &.skeleton-loader {
+                    width: 100%;
+                    height: 34px;
+                } 
+                &.skeleton-loader::before {
+                    content: '';
+                }  
+                &::before {
+                    content: url('/wp-content/themes/buddyboss-theme-child/assets/img/dl.svg');
+                    margin-right: 16px;
+                }               
+                @media #{$large} {
+                    padding: 12px 10px;  
+                    display: block;
+                }   
+                @media #{$tablet} {
+                    width: 100%;             
+                }                  
+            }
+
+            @media #{$large} {
+                margin-bottom: 40px;
+            }   
+        }
+    }
+    .tools-page-desc {
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        color: #81858B;
+        white-space: pre-wrap;
+        margin-bottom: 120px;
+
+        @media #{$tablet} {               
+           padding: 20px;
+        }  
+    }
+    .modal {
+        display: none; 
+        position: fixed; 
+        z-index: 999; 
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%; 
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0,0.8); 
+
+        &__content {
+            background-color: white;
+            margin: auto; 
+            padding: 60px 83px 88px 83px;
+            border-radius: 4px;
+            width: 100%; 
+            max-width: 1020px;
+            height: auto;
+            text-align: center;
+
+            @media #{$mobilelarge} {
+                margin: auto 20px;
+                padding: 60px 20px;
+                height: fit-content;  
+            }  
+            @media #{$tablet} {               
+                margin: auto 20px; 
+            }  
+        }
+        &__heading {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            text-transform: capitalize;
+            color: #1F3C61;
+            margin-bottom: 16px;
+            text-align: left;
+        }
+        &__desc {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 28px;
+            text-transform: capitalize;
+            color: #6F7A88;
+            margin-bottom: 40px;
+            text-align: left;
+        }
+        &__video {
+            width: 100%;
+            height: 100%;
+            max-height: 480px;         
+            background-color: black;
+            margin: 0 0 40px 0;          
+            
+            @media #{$mobilelarge} {               
+                height: fit-content;  
+            }  
+        }
+        &__audiotext {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color: #1F3C61;
+            margin-top: 32px;
+            margin-bottom: 24px;
+            text-align: left;
+            display: none;
+        }
+        &__audio {
+            width: 100%;
+            height: 100px;
+            display: none;
+
+            iframe {
+                height: auto;
+            }
+        }   
+        &__close {
+            color: #6F7A88;
+            float: right;
+            font-size: 26px;           
+            position: relative;
+            top: -50px;
+            right: -60px;
+
+            @media #{$mobilelarge} {               
+                right: -5px;
+            }  
+
+            &:hover,
+            &:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;               
+            }
+        }            
+    }     
+}
+
+
+/***
+ * CALENDAR TRIBE EVENTS PAGE TEMPLATE
+ */
+ .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-top-bar {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse !important;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.tribe-events-c-top-bar__nav-link--prev {
+    background-color: #FFFFFF !important;
+    border: 1px solid #E1E1E1 !important;
+    box-sizing: border-box !important;
+    border-radius: 4px 0px 0px 4px !important;   
+    padding: 7px 14px !important;
+}
+.tribe-events-c-top-bar__nav-link--next {
+    background: #FFFFFF!important;
+    border: 1px solid #E1E1E1 !important;
+    box-sizing: border-box !important;
+    border-radius: 0px 4px 4px 0px !important;
+    padding: 7px 14px !important;
+}
+.bb-tribe-events-views-v2 .tribe-events .tribe-events-c-top-bar__nav-list-item {
+    margin-left: 8px;
+}
+
+.tribe-events .tribe-events-c-top-bar__datepicker-button {
+    justify-content: center !important;
+}
+.tribe-events-c-top-bar__datepicker {
+    padding-left: 35% !important;
+
+    @media #{$mobile} {               
+        margin: 0 !important;
+        display: block;
+        padding-left: 0 !important;
+    }  
+}
+
+.tribe-events-c-top-bar__datepicker-button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 24px !important;
+    line-height: 40px !important;
+    text-align: center;
+    color: #1F3C61;
+}
+.tribe-events-c-top-bar__datepicker-container {    
+
+    width: 100% !important;
+
+    @media #{$mobile} {  
+        width: 60% !important;
+        margin-left: 25% !important;  
+    }    
+} 
+.tribe-events-calendar-latest-past__event-row {
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 30px;
+}
+.tribe-events-calendar-latest-past__event-date-tag {
+    background: #A6B0BB;
+    border-radius: 8px;
+}
+.tribe-events .tribe-events-calendar-latest-past__event-date-tag-datetime {
+    justify-content: center;
+}
+.tribe-events-calendar-latest-past__event-date-tag-daynum {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.tribe-events-calendar-latest-past__event-date-tag-month {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.tribe-events-calendar-latest-past {
+    display: none;
+}
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-top-bar__datepicker-container {
+
+    @media #{$mobile} {               
+        margin: 0 !important;
+        display: block;
+        width: 60% !important;
+    }  
+}
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-top-bar__today-button {
+    display: none !important;
+    visibility: hidden !important;
+    width: 1px !important;
+}
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-view-selector {
+    width: auto !important;
+    
+    .tribe-events-c-view-selector__content {
+        width: auto !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;        
+        border: 1px solid #E1E1E1 !important;
+        border-radius: 4px !important;    
+
+        .tribe-events-c-view-selector__list {    
+            height: 40px !important;
+            
+            li.tribe-events-c-view-selector__list-item {
+                width: 80px !important;     
+
+                &.tribe-events-c-view-selector__list-item:first-child {                   
+                    border-right: 1px solid #E1E1E1 !important;                   
+                }                
+                &.tribe-events-c-view-selector__list-item:last-child {                   
+                    border-left: 1px solid #E1E1E1 !important;
+                }                
+                .tribe-events-c-view-selector__list-item-text {
+                    text-align: center;
+                    font-family: 'Source Sans Pro';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #1F3C61;
+                }  
+                &--active {
+                    background-color: #EDF6FE !important;   
+                    .tribe-events-c-view-selector__list-item-link:after {
+                        background-color: transparent !important;
+                    }              
+                }
+            }
+        }
+    }
+}
+/* article.tribe-events-calendar-month__calendar-event.tribe_events_cat-calendar-crypto { */
+    article.tribe-events-calendar-month__calendar-event {    
+    background: #1F3C61 !important;
+    opacity: 1 !important;
+    margin: 0 10px 10px 10px !important;
+    border-radius: 4px !important;
+    padding: 6px 10px !important;
+
+    h3.tribe-events-calendar-month__calendar-event-title a{
+        font-family: 'Source Sans Pro'  !important;
+        font-style: normal  !important;
+        font-weight: bold  !important;
+        font-size: 14px  !important;
+        line-height: 18px  !important;
+        text-transform: capitalize  !important;
+        color: white !important;
+    } 
+    .tribe-events-calendar-month__calendar-event-datetime {
+        font-family: 'Source Sans Pro'  !important;
+        font-style: normal  !important;
+        font-weight: normal  !important;
+        font-size: 14px  !important;
+        line-height: 18px  !important;
+        text-transform: capitalize  !important;
+        color: white !important;
+    } 
+}
+/* article.tribe-events-pro-week-grid__event.tribe_events_cat-calendar-crypto { */
+article.tribe-events-pro-week-grid__event {    
+    opacity: 1 !important;
+    a.tribe-events-pro-week-grid__event-link {
+        background-color: rgba(0,124,255,.05);
+        margin: 0 !important;
+        border-radius: 0 !important;
+        padding: 2px !important;
+        
+        .tribe-events-pro-week-grid__event-link-inner {
+            height: auto;
+            background: #1F3C61 !important;
+            border-radius: 4px !important;
+
+            h3 {
+                font-family: 'Source Sans Pro'  !important;
+                font-style: normal  !important;
+                font-weight: bold  !important;
+                font-size: 14px  !important;
+                line-height: 18px  !important;
+                text-transform: capitalize  !important;
+                color: white !important;
+            }
+            time {
+                font-family: 'Source Sans Pro'  !important;
+                font-style: normal  !important;
+                font-weight: normal  !important;
+                font-size: 14px  !important;
+                line-height: 18px  !important;
+                text-transform: capitalize  !important;
+                color: white !important;
+            }
+        }
+    } 
+}
+/* article.tribe-events-calendar-day__event.tribe_events_cat-calendar-crypto { */
+article.tribe-events-calendar-day__event {   
+    margin: 10px 0 !important;    
+
+    .tribe-events-calendar-day__event-content {
+        background: #1F3C61;
+        border-radius: 4px;
+        padding: 10px 6px !important;
+        height: auto;
+
+        h3 {
+            margin: 0;
+
+            a {
+                font-family: 'Source Sans Pro';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 18px;
+                text-transform: capitalize;
+                color: #FFFFFF;
+            }
+        }   
+    }
+}
+.tribe-events-tooltip-theme{
+    margin-top: -10px !important;
+    background: #FFFFFF !important;
+    border-radius: 8px !important; 
+
+    .tooltipster-content {        
+        time {
+            font-family: 'Source Sans Pro'!important;
+            font-style: normal!important;
+            font-weight: normal!important;
+            font-size: 14px!important;
+            line-height: 24px!important;
+            color: #6F7A88!important;
+        }    
+    }
+    .tooltipster-arrow {
+        background: #FFFFFF !important;
+    }
+}
+
+
+
+/***
+ * STOCKS WATCHLIST PAGE
+ */
+.page-template-page-template-watchlist {
+
+    .container {
+        max-width: 1140px;
+    }    
+    #main {        
+        padding: 0;
+        margin: 0;
+    }
+    .entry-header {
+        margin-top: 60px;
+        margin-bottom: 16px;
+
+        .entry-title {
+            display: block;
+        }
+    } 
+    .page-description {
+        margin-bottom: 80px;
+        width: 100%;
+        display: block;
+
+        p {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 32px;
+            color: #81858B;
+        }
+    }
+    .stock-watchlists {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 60px;       
+
+        @media #{$large} {
+            grid-gap: 20px;              
+        }  
+        @media #{$tablet} {
+            grid-template-columns: 1fr;
+            grid-gap: 20px;  
+        }    
+
+        .card {
+            width: 100%;
+            height: auto;
+            margin-bottom: 60px;
+            background: #FFFFFF;
+            border-radius: 4px;
+            
+            &__img {
+                width: 100%;
+                height: 302px;
+                margin-bottom: 30px;
+                position: relative;
+                cursor: pointer;
+
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 302px;
+                    border-radius: 4px 4px 0 0;
+                }
+                .play_icon {                
+                    position: absolute;
+                    left: calc(50% - 35px);
+                    top: calc(50% - 35px);                            
+                }                
+            }
+            &__body {
+                box-sizing: border-box;  
+                display: flex;
+                flex-direction: column;
+            }
+       
+            .group {
+                width: 100%;
+                height: auto;
+            }
+            &__content {
+                padding: 0px 30px 54px 30px;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            &__heading {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 32px;
+                text-transform: capitalize;
+                color: #1F3C61;                
+                margin-bottom: 26px;
+                
+                &.skeleton-loader {
+                    width: 100%;
+                    height: 34px;
+                }    
+            }
+            &__desc {
+                font-family: 'Source Sans Pro';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 28px;
+                text-transform: capitalize;
+                color: #6F7A88;
+                margin-bottom: 24px;
+
+                p {
+                    margin-bottom: 32px;
+                }
+
+                &.skeleton-loader {
+                    width: 100%;
+                    height: 34px;
+                }    
+            }
+            &__btn {
+                margin: auto;
+                padding: 16px 85px;               
+                text-align: center;
+                background: #48A9F5;
+                border-radius: 4px;   
+                font-family: 'Source Sans Pro';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 24px;
+                letter-spacing: 0.04em;
+                color: #FFFFFF;   
+                width: fit-content;
+
+                &--crypto {
+                    color: white;
+                    background: $btn-crypto;  
+    
+                    &:hover {
+                        color: white;
+                        background: $btn-crypto-hover; 
+                    }              
+                } 
+                &--stocks, &--trading { 
+                    color: white;
+                    background: $btn-stocks;    
+                    
+                    &:hover {
+                        color: white;
+                        background: $btn-stocks-hover; 
+                    }    
+                } 
+                &--success {
+                    color: white;
+                    background: $btn-success;  
+                    
+                    &:hover {
+                        color: white;
+                        background: $btn-success-hover; 
+                    }      
+                } 
+                &--gold {
+                    color: white;
+                    background: $btn-gold;     
+                    
+                    &:hover {
+                        color: white;
+                        background: $btn-gold-hover; 
+                    }   
+                } 
+                &.skeleton-loader {
+                    width: 100%;
+                    height: 34px;
+                } 
+                           
+                @media #{$large} {
+                    padding: 12px 10px;  
+                    display: block;
+                }   
+                @media #{$tabletlarge} {
+                    width: 100%;             
+                }                  
+            }
+
+            @media #{$large} {
+                margin-bottom: 40px;
+            }   
+        }
+    }
+    .page-disclaimer {
+
+        margin: 20px auto 80px auto;
+        width: 100%;
+        display: block;
+
+        p {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #81858B;
+        }    
+    }
+}
+
+
+
+
+/***
+ * GENERAL CSS HERE
+ */
+
+ .tooltip_menu:before {
+    right: 128px !important;
+}
+
+/** 
+ * hide these elements temporarily 
+ * as per client's request 
+ **/
+#my_level {
+    display: none !important;
+}  
+#leveldiv {
+    display: none;
+}
+#wp-admin-bar-my-account-media {
+    display: none;
+}
+/** hide **/
+
+.addflex {
+    display: flex !important;
+}
+@keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:.5; }
+    100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:.5; }
+    100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:.5; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:.5; }
+    100% { opacity:1; }
+}
+.skeleton-loader{
+    animation: fadeIn ease 1s;
+    -webkit-animation: flickerAnimation 1s infinite;
+    -moz-animation: flickerAnimation 1s infinite;
+    -o-animation: flickerAnimation 1s infinite;
+    animation: flickerAnimation 1s infinite;;
+    border-radius:5px;
+    background:#eee;
+} 
+
+
+/*** backup copy of custom css for trading watchlist elementor page ***/
+
+/***
+.card-image { border-radius: 4px 4px 0 0;}
+.elementor-image-box-title { color: #1F3C61;}
+.elementor-image-box-wrapper { background: #ffffff;}
+.elementor-image-box-content { padding : 0px 30px 53px 30px; }
+.watchlist-button { padding: 16px; background: #48A9F5; border-radius: 4px; color: #ffffff; display: block; max-width:280px;text-align: center; margin: 40px auto 0 auto; font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0.04em;}
+.watchlist-button:hover { color: #ffffff; opacity: .75;}
+***/
